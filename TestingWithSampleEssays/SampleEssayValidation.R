@@ -29,7 +29,6 @@ author_file_list <- list.files(path = author_output_folder, pattern = "*.csv", f
 # Store output data in dictionary in format (gamet: gamet_data, seance: seance_data, etc...)
 our_output_dict <- list()
 author_output_dict <- list()
-gamet_filenames <- list() # GAMET only processed portion of filenames, let's see ones it did 
 
 # Construct our output dictionary 
 for (file in our_file_list) {
@@ -56,17 +55,7 @@ for (file in our_file_list) {
   data$filename <- basename(data$filename)
   our_output_dict[[key]] <- data
   
-  # Store GAMET filenames that it did process 
-  if(key == "gamet") {
-    gamet_filenames <- data$filename
-  }
 }
-
-# GAMET only processed a portion of the files - let's see the filenames it excluded
-# all_sample_essays <- list.files(path = "SampleEssays/", pattern = "*.txt")
-# excluded_files <- all_sample_essays[!all_sample_essays %in% gamet_filenames]
-# print(excluded_files) 
-# print(length(excluded_files))
 
 # Construct author output dictionary 
 for (file in author_file_list) {
@@ -88,7 +77,25 @@ for (file in author_file_list) {
 print(names(our_output_dict))
 print(names(author_output_dict))
 
+#### Ensure all rows have same number of rows as number of SampleEssays #### 
+print("### Checking Matching Number of Rows ###")
+total_essays <- length(list.files(path = "SampleEssays/", pattern = "*.txt", full.names = TRUE))
+print(paste("Total Essays (Rows): ", total_essays))
+
+for (key in names(our_output_dict)) {
+  print(paste("---", toupper(key), "---"))
+  df <- our_output_dict[[key]]
+  if(nrow(df) != total_essays) {
+    print(paste("!DF Num Rows does not match!: ", nrow(df)))
+  }
+  else {
+    print("Num Rows Match")
+  }
+}
+  
+  
 #### Compare the data frames columns between two dictionaries ####
+print("### Checking Matching Column Names ###")
 for (key in names(our_output_dict)) {
   print(paste("---", toupper(key), "---"))
   if (is.null(author_output_dict[[key]])) {
