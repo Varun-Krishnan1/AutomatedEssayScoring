@@ -14,8 +14,8 @@ library(tidyverse)
 # output_file <- "ComparisonResults.txt"
 # sink(output_file)
 
-# Ensure this is base folder for the project 
-base_folder = "~/Desktop/AES"
+# Ensure this is top-level folder for Tool Validation (.../Tool Validation)
+base_folder =  setwd("~/Desktop/AES/Tool Validation")
 setwd(base_folder)
 
 our_output_folder = "Essay Indices Output/"
