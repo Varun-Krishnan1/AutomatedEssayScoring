@@ -1,0 +1,961 @@
+[1] "gamet"      "seance"     "taaco"      "taaled"     "taales"     "components" "sca"        "taassc"    
+[1] "gamet"      "seance"     "taaco"      "taaled"     "taales"     "components" "sca"        "taassc"    
+[1] "--- GAMET ---"
+[1] "Columns missing in our_output_dict for key gamet :"
+ [1] "ALLOT_OF"                 "ALL_READY"                "ALONG_TIME"               "AN_THEN"                  "A_BUT"                   
+ [6] "A_WAS"                    "BREATHE_BREATH"           "DIE_DICE"                 "DOES_YOU"                 "FORE_DPS"                
+[11] "FOR_ALONG_TIME"           "GAVE_GIVE"                "GOING_TO_VBD"             "HELL"                     "HOUR_OUR"                
+[16] "IN_STEAD_OF"              "IT_IS_NO"                 "I_HERD"                   "LIGHT_WEIGHT"             "LING"                    
+[21] "LOT_S"                    "MANY_FEW_UNCOUNTABLE"     "MY_BE"                    "NEAR_BY"                  "ON_BEHAVE"               
+[26] "OUT_GROW"                 "OUT_OF_THE_WAY"           "PAST_TIME"                "QUIET_QUITE"              "SAY_TELL"                
+[31] "SCENT_SENT"               "SKY_DIVING"               "THAN_INTERJ"              "THE_FLEW"                 "THE_ONLY_ON"             
+[36] "VERY_THANKS_THANKS_A_LOT" "WHOS_ACTUAL"              "WORKING_PROGRESS"        
+[1] "38 missing"
+[1] "--- SEANCE ---"
+[1] "Identitical Column Names"
+[1] "--- TAACO ---"
+[1] "Identitical Column Names"
+[1] "--- TAALED ---"
+[1] "Identitical Column Names"
+[1] "--- TAALES ---"
+[1] "Identitical Column Names"
+[1] "--- COMPONENTS ---"
+[1] "Identitical Column Names"
+[1] "--- SCA ---"
+[1] "Identitical Column Names"
+[1] "--- TAASSC ---"
+[1] "Identitical Column Names"
+[1] "--- GAMET ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- SEANCE ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAACO ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAALED ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAALES ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17838.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17850.txt"
+[1] "--- COMPONENTS ---"
+[1] "--- SCA ---"
+[1] "--- TAASSC ---"
+Differing value for Key: taassc Row: 17834.txt Column: all_av_construction_freq_stdev 
+Our value:  664641.1 
+Author's value:  664641.1 
+Differing value for Key: taassc Row: 17834.txt Column: fic_av_construction_freq_stdev 
+Our value:  220651.3 
+Author's value:  220651.3 
+Differing value for Key: taassc Row: 17834.txt Column: all_av_construction_freq_log_stdev 
+Our value:  664641.1 
+Author's value:  664641.1 
+Differing value for Key: taassc Row: 17834.txt Column: fic_av_construction_freq_log_stdev 
+Our value:  220651.3 
+Author's value:  220651.3 
+Differing[1] "Hello"
+ey: taassc Row: 17837.txt Column: fic_av_lemma_construction_freq_stdev 
+Our value:  104228 
+Author's value:  104228 
+Differing value for Key: taassc Row: 17837.txt Column: fic_av_lemma_construction_freq_log_stdev 
+Our value:  104228 
+Author's value:  104228 
+[1] "No differing values for 17838.txt"
+Differing value for Key: taassc Row: 17839.txt Column: news_av_lemma_freq 
+Our value:  481399.2 
+Author's value:  481399.2 
+Differing value for Key: taassc Row: 17839.txt Column: all_av_construction_freq_stdev 
+Our value:  443443.4 
+Author's value:  443443.4 
+Differing value for Key: taassc Row: 17839.txt Column: all_av_construction_freq_log_stdev 
+Our value:  443443.4 
+Author's value:  443443.4 
+Differing value for Key: taassc Row: 17840.txt Column: mag_av_lemma_freq 
+Our value:  258464 
+Author's value:  258464 
+Differing value for Key: taassc Row: 17840.txt Column: fic_av_lemma_freq 
+Our value:  317282.7 
+Author's value:  317282.7 
+Differing value for Key: taassc Row: 17840.txt Column: all_av_construction_freq_type 
+Our value:  337603.8 
+Author's value:  337603.8 
+Differing value for Key: taassc Row: 17841.txt Column: all_av_lemma_construction_freq_type 
+Our value:  143221 
+Author's value:  143221 
+Differing value for Key: taassc Row: 17842.txt Column: acad_av_approx_collexeme 
+Our value:  -12663.03 
+Author's value:  -12663.03 
+Differing value for Key: taassc Row: 17842.txt Column: acad_av_approx_collexeme_type 
+Our value:  -12663.03 
+Author's value:  -12663.03 
+Differing value for Key: taassc Row: 17842.txt Column: news_av_approx_collexeme_stdev 
+Our value:  54550.28 
+Author's value:  54550.28 
+Differing value for Key: taassc Row: 17843.txt Column: news_av_lemma_freq_type 
+Our value:  408946.2 
+Author's value:  408946.2 
+Differing value for Key: taassc Row: 17843.txt Column: fic_av_lemma_freq_type 
+Our value:  505243.7 
+Author's value:  505243.7 
+Differing value for Key: taassc Row: 17843.txt Column: acad_av_lemma_construction_freq_stdev 
+Our value:  101030.5 
+Author's value:  101030.5 
+Differing value for Key: taassc Row: 17843.txt Column: news_av_construction_freq_stdev 
+Our value:  171247 
+Author's value:  171247 
+Differing value for Key: taassc Row: 17843.txt Column: acad_av_lemma_construction_freq_log_stdev 
+Our value:  101030.5 
+Author's value:  101030.5 
+Differing value for Key: taassc Row: 17843.txt Column: news_av_construction_freq_log_stdev 
+Our value:  171247 
+Author's value:  171247 
+Differing value for Key: taassc Row: 17844.txt Column: news_av_construction_freq_stdev 
+Our value:  136299 
+Author's value:  136299 
+Differing value for Key: taassc Row: 17844.txt Column: news_av_construction_freq_log_stdev 
+Our value:  136299 
+Author's value:  136299 
+[1] "No differing values for 17845.txt"
+Differing value for Key: taassc Row: 17846.txt Column: fic_av_construction_freq_stdev 
+Our value:  152969.1 
+Author's value:  152969.1 
+Differing value for Key: taassc Row: 17846.txt Column: fic_av_construction_freq_log_stdev 
+Our value:  152969.1 
+Author's value:  152969.1 
+Differing value for Key: taassc Row: 17847.txt Column: mag_av_lemma_freq_type 
+Our value:  465263.5 
+Author's value:  465263.5 
+Differing value for Key: taassc Row: 17849.txt Column: all_av_construction_freq_type 
+Our value:  360476 
+Author's value:  360476 
+Differing value for Key: taassc Row: 17849.txt Column: acad_av_lemma_freq_stdev 
+Our value:  570831.1 
+Author's value:  570831.1 
+Differing value for Key: taassc Row: 17849.txt Column: acad_av_lemma_freq_log_stdev 
+Our value:  570831.1 
+Author's value:  570831.1 
+[1] "No differing values for 17850.txt"
+[1] "gamet"      "seance"     "taaco"      "taaled"     "taales"     "components" "sca"        "taassc"    
+[1] "gamet"      "seance"     "taaco"      "taaled"     "taales"     "components" "sca"        "taassc"    
+[1] "--- GAMET ---"
+[1] "Columns missing in our_output_dict for key gamet :"
+ [1] "ALLOT_OF"                 "ALL_READY"                "ALONG_TIME"               "AN_THEN"                  "A_BUT"                   
+ [6] "A_WAS"                    "BREATHE_BREATH"           "DIE_DICE"                 "DOES_YOU"                 "FORE_DPS"                
+[11] "FOR_ALONG_TIME"           "GAVE_GIVE"                "GOING_TO_VBD"             "HELL"                     "HOUR_OUR"                
+[16] "IN_STEAD_OF"              "IT_IS_NO"                 "I_HERD"                   "LIGHT_WEIGHT"             "LING"                    
+[21] "LOT_S"                    "MANY_FEW_UNCOUNTABLE"     "MY_BE"                    "NEAR_BY"                  "ON_BEHAVE"               
+[26] "OUT_GROW"                 "OUT_OF_THE_WAY"           "PAST_TIME"                "QUIET_QUITE"              "SAY_TELL"                
+[31] "SCENT_SENT"               "SKY_DIVING"               "THAN_INTERJ"              "THE_FLEW"                 "THE_ONLY_ON"             
+[36] "VERY_THANKS_THANKS_A_LOT" "WHOS_ACTUAL"              "WORKING_PROGRESS"        
+[1] "38 missing"
+[1] "--- SEANCE ---"
+[1] "Identitical Column Names"
+[1] "--- TAACO ---"
+[1] "Identitical Column Names"
+[1] "--- TAALED ---"
+[1] "Identitical Column Names"
+[1] "--- TAALES ---"
+[1] "Identitical Column Names"
+[1] "--- COMPONENTS ---"
+[1] "Identitical Column Names"
+[1] "--- SCA ---"
+[1] "Identitical Column Names"
+[1] "--- TAASSC ---"
+[1] "Identitical Column Names"
+[1] "--- GAMET ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- SEANCE ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAACO ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAALED ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAALES ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17838.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17850.txt"
+[1] "--- COMPONENTS ---"
+[1] "--- SCA ---"
+[1] "--- TAASSC ---"
+Differing value for Key: taassc Row: 17834.txt Column: all_av_construction_freq_stdev 
+Our value:  664641.1 
+Author's value:  664641.1 
+Differing value for Key: taassc Row: 17834.txt Column: fic_av_construction_freq_stdev 
+Our value:  220651.3 
+Author's value:  220651.3 
+Differing value for Key: taassc Row: 17834.txt Column: all_av_construction_freq_log_stdev 
+Our value:  664641.1 
+Author's value:  664641.1 
+Differing value for Key: taassc Row: 17834.txt Column: fic_av_construction_freq_log_stdev 
+Our value:  220651.3 
+Author's value:  220651.3 
+Differing value for Key: taassc Row: 17837.txt Column: fic_av_lemma_construction_freq_stdev 
+Our value:  104228 
+Author's value:  104228 
+Differing value for Key: taassc Row: 17837.txt Column: fic_av_lemma_construction_freq_log_stdev 
+Our value:  104228 
+Author's value:  104228 
+[1] "No differing values for 17838.txt"
+Differing value for Key: taassc Row: 17839.txt Column: news_av_lemma_freq 
+Our value:  481399.2 
+Author's value:  481399.2 
+Differing value for Key: taassc Row: 17839.txt Column: all_av_construction_freq_stdev 
+Our value:  443443.4 
+Author's value:  443443.4 
+Differing value for Key: taassc Row: 17839.txt Column: all_av_construction_freq_log_stdev 
+Our value:  443443.4 
+Author's value:  443443.4 
+Differing value for Key: taassc Row: 17840.txt Column: mag_av_lemma_freq 
+Our value:  258464 
+Author's value:  258464 
+Differing value for Key: taassc Row: 17840.txt Column: fic_av_lemma_freq 
+Our value:  317282.7 
+Author's value:  317282.7 
+Differing value for Key: taassc Row: 17840.txt Column: all_av_construction_freq_type 
+Our value:  337603.8 
+Author's value:  337603.8 
+Differing value for Key: taassc Row: 17841.txt Column: all_av_lemma_construction_freq_type 
+Our value:  143221 
+Author's value:  143221 
+Differing value for Key: taassc Row: 17842.txt Column: acad_av_approx_collexeme 
+Our value:  -12663.03 
+Author's value:  -12663.03 
+Differing value for Key: taassc Row: 17842.txt Column: acad_av_approx_collexeme_type 
+Our value:  -12663.03 
+Author's value:  -12663.03 
+Differing value for Key: taassc Row: 17842.txt Column: news_av_approx_collexeme_stdev 
+Our value:  54550.28 
+Author's value:  54550.28 
+Differing value for Key: taassc Row: 17843.txt Column: news_av_lemma_freq_type 
+Our value:  408946.2 
+Author's value:  408946.2 
+Differing value for Key: taassc Row: 17843.txt Column: fic_av_lemma_freq_type 
+Our value:  505243.7 
+Author's value:  505243.7 
+Differing value for Key: taassc Row: 17843.txt Column: acad_av_lemma_construction_freq_stdev 
+Our value:  101030.5 
+Author's value:  101030.5 
+Differing value for Key: taassc Row: 17843.txt Column: news_av_construction_freq_stdev 
+Our value:  171247 
+Author's value:  171247 
+Differing value for Key: taassc Row: 17843.txt Column: acad_av_lemma_construction_freq_log_stdev 
+Our value:  101030.5 
+Author's value:  101030.5 
+Differing value for Key: taassc Row: 17843.txt Column: news_av_construction_freq_log_stdev 
+Our value:  171247 
+Author's value:  171247 
+Differing value for Key: taassc Row: 17844.txt Column: news_av_construction_freq_stdev 
+Our value:  136299 
+Author's value:  136299 
+Differing value for Key: taassc Row: 17844.txt Column: news_av_construction_freq_log_stdev 
+Our value:  136299 
+Author's value:  136299 
+[1] "No differing values for 17845.txt"
+Differing value for Key: taassc Row: 17846.txt Column: fic_av_construction_freq_stdev 
+Our value:  152969.1 
+Author's value:  152969.1 
+Differing value for Key: taassc Row: 17846.txt Column: fic_av_construction_freq_log_stdev 
+Our value:  152969.1 
+Author's value:  152969.1 
+Differing value for Key: taassc Row: 17847.txt Column: mag_av_lemma_freq_type 
+Our value:  465263.5 
+Author's value:  465263.5 
+Differing value for Key: taassc Row: 17849.txt Column: all_av_construction_freq_type 
+Our value:  360476 
+Author's value:  360476 
+Differing value for Key: taassc Row: 17849.txt Column: acad_av_lemma_freq_stdev 
+Our value:  570831.1 
+Author's value:  570831.1 
+Differing value for Key: taassc Row: 17849.txt Column: acad_av_lemma_freq_log_stdev 
+Our value:  570831.1 
+Author's value:  570831.1 
+[1] "No differing values for 17850.txt"
+[1] "gamet"      "seance"     "taaco"      "taaled"     "taales"     "components" "sca"        "taassc"    
+[1] "gamet"      "seance"     "taaco"      "taaled"     "taales"     "components" "sca"        "taassc"    
+[1] "--- GAMET ---"
+[1] "Columns missing in our_output_dict for key gamet :"
+ [1] "ALLOT_OF"                 "ALL_READY"                "ALONG_TIME"               "AN_THEN"                  "A_BUT"                   
+ [6] "A_WAS"                    "BREATHE_BREATH"           "DIE_DICE"                 "DOES_YOU"                 "FORE_DPS"                
+[11] "FOR_ALONG_TIME"           "GAVE_GIVE"                "GOING_TO_VBD"             "HELL"                     "HOUR_OUR"                
+[16] "IN_STEAD_OF"              "IT_IS_NO"                 "I_HERD"                   "LIGHT_WEIGHT"             "LING"                    
+[21] "LOT_S"                    "MANY_FEW_UNCOUNTABLE"     "MY_BE"                    "NEAR_BY"                  "ON_BEHAVE"               
+[26] "OUT_GROW"                 "OUT_OF_THE_WAY"           "PAST_TIME"                "QUIET_QUITE"              "SAY_TELL"                
+[31] "SCENT_SENT"               "SKY_DIVING"               "THAN_INTERJ"              "THE_FLEW"                 "THE_ONLY_ON"             
+[36] "VERY_THANKS_THANKS_A_LOT" "WHOS_ACTUAL"              "WORKING_PROGRESS"        
+[1] "38 missing"
+[1] "--- SEANCE ---"
+[1] "Identitical Column Names"
+[1] "--- TAACO ---"
+[1] "Identitical Column Names"
+[1] "--- TAALED ---"
+[1] "Identitical Column Names"
+[1] "--- TAALES ---"
+[1] "Identitical Column Names"
+[1] "--- COMPONENTS ---"
+[1] "Identitical Column Names"
+[1] "--- SCA ---"
+[1] "Identitical Column Names"
+[1] "--- TAASSC ---"
+[1] "Identitical Column Names"
+[1] "--- GAMET ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- SEANCE ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAACO ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAALED ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAALES ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17838.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17850.txt"
+[1] "--- COMPONENTS ---"
+[1] "--- SCA ---"
+[1] "--- TAASSC ---"
+[1] "Differing value for Key: taassc Row: 17834.txt Column: all_av_construction_freq_stdev \n"
+[1] "gamet"      "seance"     "taaco"      "taaled"     "taales"     "components" "sca"        "taassc"    
+[1] "gamet"      "seance"     "taaco"      "taaled"     "taales"     "components" "sca"        "taassc"    
+[1] "--- GAMET ---"
+[1] "Columns missing in our_output_dict for key gamet :"
+ [1] "ALLOT_OF"                 "ALL_READY"                "ALONG_TIME"               "AN_THEN"                  "A_BUT"                   
+ [6] "A_WAS"                    "BREATHE_BREATH"           "DIE_DICE"                 "DOES_YOU"                 "FORE_DPS"                
+[11] "FOR_ALONG_TIME"           "GAVE_GIVE"                "GOING_TO_VBD"             "HELL"                     "HOUR_OUR"                
+[16] "IN_STEAD_OF"              "IT_IS_NO"                 "I_HERD"                   "LIGHT_WEIGHT"             "LING"                    
+[21] "LOT_S"                    "MANY_FEW_UNCOUNTABLE"     "MY_BE"                    "NEAR_BY"                  "ON_BEHAVE"               
+[26] "OUT_GROW"                 "OUT_OF_THE_WAY"           "PAST_TIME"                "QUIET_QUITE"              "SAY_TELL"                
+[31] "SCENT_SENT"               "SKY_DIVING"               "THAN_INTERJ"              "THE_FLEW"                 "THE_ONLY_ON"             
+[36] "VERY_THANKS_THANKS_A_LOT" "WHOS_ACTUAL"              "WORKING_PROGRESS"        
+[1] "38 missing"
+[1] "--- SEANCE ---"
+[1] "Identitical Column Names"
+[1] "--- TAACO ---"
+[1] "Identitical Column Names"
+[1] "--- TAALED ---"
+[1] "Identitical Column Names"
+[1] "--- TAALES ---"
+[1] "Identitical Column Names"
+[1] "--- COMPONENTS ---"
+[1] "Identitical Column Names"
+[1] "--- SCA ---"
+[1] "Identitical Column Names"
+[1] "--- TAASSC ---"
+[1] "Identitical Column Names"
+[1] "--- GAMET ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- SEANCE ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAACO ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAALED ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAALES ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17838.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17850.txt"
+[1] "--- COMPONENTS ---"
+[1] "--- SCA ---"
+[1] "--- TAASSC ---"
+[1] "Differing value for Key: taassc Row: 17834.txt Column: all_av_construction_freq_stdev \n"
+[1] "Our value:  664641.097 \n"
+[1] "Author's value:  664641.098 \n"
+[1] "Differing value for Key: taassc Row: 17834.txt Column: fic_av_construction_freq_stdev \n"
+[1] "Our value:  220651.269 \n"
+[1] "Author's value:  220651.268 \n"
+[1] "Differing value for Key: taassc Row: 17834.txt Column: all_av_construction_freq_log_stdev \n"
+[1] "Our value:  664641.097 \n"
+[1] "Author's value:  664641.098 \n"
+[1] "Differing value for Key: taassc Row: 17834.txt Column: fic_av_construction_freq_log_stdev \n"
+[1] "Our value:  220651.269 \n"
+[1] "Author's value:  220651.268 \n"
+[1] "Differing value for Key: taassc Row: 17837.txt Column: fic_av_lemma_construction_freq_stdev \n"
+[1] "Our value:  104228.033 \n"
+[1] "Author's value:  104228.034 \n"
+[1] "Differing value for Key: taassc Row: 17837.txt Column: fic_av_lemma_construction_freq_log_stdev \n"
+[1] "Our value:  104228.033 \n"
+[1] "Author's value:  104228.034 \n"
+[1] "No differing values for 17838.txt"
+[1] "Differing value for Key: taassc Row: 17839.txt Column: news_av_lemma_freq \n"
+[1] "Our value:  481399.194 \n"
+[1] "Author's value:  481399.193 \n"
+[1] "Differing value for Key: taassc Row: 17839.txt Column: all_av_construction_freq_stdev \n"
+[1] "Our value:  443443.431 \n"
+[1] "Author's value:  443443.432 \n"
+[1] "Differing value for Key: taassc Row: 17839.txt Column: all_av_construction_freq_log_stdev \n"
+[1] "Our value:  443443.431 \n"
+[1] "Author's value:  443443.432 \n"
+[1] "Differing value for Key: taassc Row: 17840.txt Column: mag_av_lemma_freq \n"
+[1] "Our value:  258464.045 \n"
+[1] "Author's value:  258464.046 \n"
+[1] "Differing value for Key: taassc Row: 17840.txt Column: fic_av_lemma_freq \n"
+[1] "Our value:  317282.652 \n"
+[1] "Author's value:  317282.651 \n"
+[1] "Differing value for Key: taassc Row: 17840.txt Column: all_av_construction_freq_type \n"
+[1] "Our value:  337603.831 \n"
+[1] "Author's value:  337603.83 \n"
+[1] "Differing value for Key: taassc Row: 17841.txt Column: all_av_lemma_construction_freq_type \n"
+[1] "Our value:  143221.043 \n"
+[1] "Author's value:  143221.044 \n"
+[1] "Differing value for Key: taassc Row: 17842.txt Column: acad_av_approx_collexeme \n"
+[1] "Our value:  -12663.027 \n"
+[1] "Author's value:  -12663.028 \n"
+[1] "Differing value for Key: taassc Row: 17842.txt Column: acad_av_approx_collexeme_type \n"
+[1] "Our value:  -12663.027 \n"
+[1] "Author's value:  -12663.028 \n"
+[1] "Differing value for Key: taassc Row: 17842.txt Column: news_av_approx_collexeme_stdev \n"
+[1] "Our value:  54550.278 \n"
+[1] "Author's value:  54550.277 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: news_av_lemma_freq_type \n"
+[1] "Our value:  408946.212 \n"
+[1] "Author's value:  408946.211 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: fic_av_lemma_freq_type \n"
+[1] "Our value:  505243.712 \n"
+[1] "Author's value:  505243.711 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: acad_av_lemma_construction_freq_stdev \n"
+[1] "Our value:  101030.521 \n"
+[1] "Author's value:  101030.52 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: news_av_construction_freq_stdev \n"
+[1] "Our value:  171247.026 \n"
+[1] "Author's value:  171247.025 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: acad_av_lemma_construction_freq_log_stdev \n"
+[1] "Our value:  101030.521 \n"
+[1] "Author's value:  101030.52 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: news_av_construction_freq_log_stdev \n"
+[1] "Our value:  171247.026 \n"
+[1] "Author's value:  171247.025 \n"
+[1] "Differing value for Key: taassc Row: 17844.txt Column: news_av_construction_freq_stdev \n"
+[1] "Our value:  136298.996 \n"
+[1] "Author's value:  136298.995 \n"
+[1] "Differing value for Key: taassc Row: 17844.txt Column: news_av_construction_freq_log_stdev \n"
+[1] "Our value:  136298.996 \n"
+[1] "Author's value:  136298.995 \n"
+[1] "No differing values for 17845.txt"
+[1] "Differing value for Key: taassc Row: 17846.txt Column: fic_av_construction_freq_stdev \n"
+[1] "Our value:  152969.087 \n"
+[1] "Author's value:  152969.086 \n"
+[1] "Differing value for Key: taassc Row: 17846.txt Column: fic_av_construction_freq_log_stdev \n"
+[1] "Our value:  152969.087 \n"
+[1] "Author's value:  152969.086 \n"
+[1] "Differing value for Key: taassc Row: 17847.txt Column: mag_av_lemma_freq_type \n"
+[1] "Our value:  465263.538 \n"
+[1] "Author's value:  465263.539 \n"
+[1] "Differing value for Key: taassc Row: 17849.txt Column: all_av_construction_freq_type \n"
+[1] "Our value:  360476.038 \n"
+[1] "Author's value:  360476.039 \n"
+[1] "Differing value for Key: taassc Row: 17849.txt Column: acad_av_lemma_freq_stdev \n"
+[1] "Our value:  570831.058 \n"
+[1] "Author's value:  570831.059 \n"
+[1] "Differing value for Key: taassc Row: 17849.txt Column: acad_av_lemma_freq_log_stdev \n"
+[1] "Our value:  570831.058 \n"
+[1] "Author's value:  570831.059 \n"
+[1] "No differing values for 17850.txt"
+
+> ## ========================================== ## 
+> ## Compare our Lingustic Analysis Tools Output to that of Auuhtors
+> ## TO DO 
+> ## 
+> ## 
+> ##  .... [TRUNCATED] 
+
+> # Specify the file path to write the output
+> # output_file <- "ComparisonResults.txt"
+> # sink(output_file)
+> 
+> # Ensure this is base folder for t .... [TRUNCATED] 
+
+> setwd(base_folder)
+
+> our_output_folder = "Essay Indices Output/"
+
+> author_output_folder = "Author Essay Indices Output/"
+
+> # Get a list of all CSV files in the folder
+> our_file_list <- list.files(path = our_output_folder, pattern = "*.csv", full.names = TRUE)
+
+> author_file_list <- list.files(path = author_output_folder, pattern = "*.csv", full.names = TRUE)
+
+> # Store output data in dictionary in format (gamet: gamet_data, seance: seance_data, etc...)
+> our_output_dict <- list()
+
+> author_output_dict <- list()
+
+> # Read each CSV file and store it in the dictionary
+> for (file in our_file_list) {
++   filename <- basename(file)  # Extract the filename from the  .... [TRUNCATED] 
+
+> for (file in author_file_list) {
++   filename <- basename(file)  # Extract the filename from the full path
++   key <- gsub(".csv$", "", sub(".*-", " ..." ... [TRUNCATED] 
+
+> # Ensure keys match 
+> print(names(our_output_dict))
+[1] "gamet"      "seance"     "taaco"      "taaled"     "taales"     "components" "sca"        "taassc"    
+
+> print(names(author_output_dict))
+[1] "gamet"      "seance"     "taaco"      "taaled"     "taales"     "components" "sca"        "taassc"    
+
+> specific_key <- "gamet"
+
+> gamet_df <- our_output_dict[[specific_key]]
+
+> #### Compare the data frames columns between two dictionaries ####
+> for (key in names(our_output_dict)) {
++   print(paste("---", toupper(key), "--- ..." ... [TRUNCATED] 
+[1] "--- GAMET ---"
+[1] "Columns missing in our_output_dict for key gamet :"
+ [1] "ALLOT_OF"                 "ALL_READY"                "ALONG_TIME"               "AN_THEN"                  "A_BUT"                   
+ [6] "A_WAS"                    "BREATHE_BREATH"           "DIE_DICE"                 "DOES_YOU"                 "FORE_DPS"                
+[11] "FOR_ALONG_TIME"           "GAVE_GIVE"                "GOING_TO_VBD"             "HELL"                     "HOUR_OUR"                
+[16] "IN_STEAD_OF"              "IT_IS_NO"                 "I_HERD"                   "LIGHT_WEIGHT"             "LING"                    
+[21] "LOT_S"                    "MANY_FEW_UNCOUNTABLE"     "MY_BE"                    "NEAR_BY"                  "ON_BEHAVE"               
+[26] "OUT_GROW"                 "OUT_OF_THE_WAY"           "PAST_TIME"                "QUIET_QUITE"              "SAY_TELL"                
+[31] "SCENT_SENT"               "SKY_DIVING"               "THAN_INTERJ"              "THE_FLEW"                 "THE_ONLY_ON"             
+[36] "VERY_THANKS_THANKS_A_LOT" "WHOS_ACTUAL"              "WORKING_PROGRESS"        
+[1] "38 missing"
+[1] "--- SEANCE ---"
+[1] "Identitical Column Names"
+[1] "--- TAACO ---"
+[1] "Identitical Column Names"
+[1] "--- TAALED ---"
+[1] "Identitical Column Names"
+[1] "--- TAALES ---"
+[1] "Identitical Column Names"
+[1] "--- COMPONENTS ---"
+[1] "Identitical Column Names"
+[1] "--- SCA ---"
+[1] "Identitical Column Names"
+[1] "--- TAASSC ---"
+[1] "Identitical Column Names"
+
+> #### Compare the data frames values between two dictionaries ####
+> 
+> for (key in names(our_output_dict)) {
++   print(paste("---", toupper(key), "- ..." ... [TRUNCATED] 
+[1] "--- GAMET ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- SEANCE ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAACO ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAALED ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17850.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17838.txt"
+[1] "--- TAALES ---"
+[1] "No differing values for 17834.txt"
+[1] "No differing values for 17837.txt"
+[1] "No differing values for 17838.txt"
+[1] "No differing values for 17839.txt"
+[1] "No differing values for 17840.txt"
+[1] "No differing values for 17841.txt"
+[1] "No differing values for 17842.txt"
+[1] "No differing values for 17843.txt"
+[1] "No differing values for 17844.txt"
+[1] "No differing values for 17845.txt"
+[1] "No differing values for 17846.txt"
+[1] "No differing values for 17847.txt"
+[1] "No differing values for 17849.txt"
+[1] "No differing values for 17850.txt"
+[1] "--- COMPONENTS ---"
+[1] "--- SCA ---"
+[1] "--- TAASSC ---"
+[1] "Differing value for Key: taassc Row: 17834.txt Column: all_av_construction_freq_stdev \n"
+[1] "Our value:  664641.097 \n"
+[1] "Author's value:  664641.098 \n"
+[1] "Differing value for Key: taassc Row: 17834.txt Column: fic_av_construction_freq_stdev \n"
+[1] "Our value:  220651.269 \n"
+[1] "Author's value:  220651.268 \n"
+[1] "Differing value for Key: taassc Row: 17834.txt Column: all_av_construction_freq_log_stdev \n"
+[1] "Our value:  664641.097 \n"
+[1] "Author's value:  664641.098 \n"
+[1] "Differing value for Key: taassc Row: 17834.txt Column: fic_av_construction_freq_log_stdev \n"
+[1] "Our value:  220651.269 \n"
+[1] "Author's value:  220651.268 \n"
+[1] "Differing value for Key: taassc Row: 17837.txt Column: fic_av_lemma_construction_freq_stdev \n"
+[1] "Our value:  104228.033 \n"
+[1] "Author's value:  104228.034 \n"
+[1] "Differing value for Key: taassc Row: 17837.txt Column: fic_av_lemma_construction_freq_log_stdev \n"
+[1] "Our value:  104228.033 \n"
+[1] "Author's value:  104228.034 \n"
+[1] "No differing values for 17838.txt"
+[1] "Differing value for Key: taassc Row: 17839.txt Column: news_av_lemma_freq \n"
+[1] "Our value:  481399.194 \n"
+[1] "Author's value:  481399.193 \n"
+[1] "Differing value for Key: taassc Row: 17839.txt Column: all_av_construction_freq_stdev \n"
+[1] "Our value:  443443.431 \n"
+[1] "Author's value:  443443.432 \n"
+[1] "Differing value for Key: taassc Row: 17839.txt Column: all_av_construction_freq_log_stdev \n"
+[1] "Our value:  443443.431 \n"
+[1] "Author's value:  443443.432 \n"
+[1] "Differing value for Key: taassc Row: 17840.txt Column: mag_av_lemma_freq \n"
+[1] "Our value:  258464.045 \n"
+[1] "Author's value:  258464.046 \n"
+[1] "Differing value for Key: taassc Row: 17840.txt Column: fic_av_lemma_freq \n"
+[1] "Our value:  317282.652 \n"
+[1] "Author's value:  317282.651 \n"
+[1] "Differing value for Key: taassc Row: 17840.txt Column: all_av_construction_freq_type \n"
+[1] "Our value:  337603.831 \n"
+[1] "Author's value:  337603.83 \n"
+[1] "Differing value for Key: taassc Row: 17841.txt Column: all_av_lemma_construction_freq_type \n"
+[1] "Our value:  143221.043 \n"
+[1] "Author's value:  143221.044 \n"
+[1] "Differing value for Key: taassc Row: 17842.txt Column: acad_av_approx_collexeme \n"
+[1] "Our value:  -12663.027 \n"
+[1] "Author's value:  -12663.028 \n"
+[1] "Differing value for Key: taassc Row: 17842.txt Column: acad_av_approx_collexeme_type \n"
+[1] "Our value:  -12663.027 \n"
+[1] "Author's value:  -12663.028 \n"
+[1] "Differing value for Key: taassc Row: 17842.txt Column: news_av_approx_collexeme_stdev \n"
+[1] "Our value:  54550.278 \n"
+[1] "Author's value:  54550.277 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: news_av_lemma_freq_type \n"
+[1] "Our value:  408946.212 \n"
+[1] "Author's value:  408946.211 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: fic_av_lemma_freq_type \n"
+[1] "Our value:  505243.712 \n"
+[1] "Author's value:  505243.711 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: acad_av_lemma_construction_freq_stdev \n"
+[1] "Our value:  101030.521 \n"
+[1] "Author's value:  101030.52 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: news_av_construction_freq_stdev \n"
+[1] "Our value:  171247.026 \n"
+[1] "Author's value:  171247.025 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: acad_av_lemma_construction_freq_log_stdev \n"
+[1] "Our value:  101030.521 \n"
+[1] "Author's value:  101030.52 \n"
+[1] "Differing value for Key: taassc Row: 17843.txt Column: news_av_construction_freq_log_stdev \n"
+[1] "Our value:  171247.026 \n"
+[1] "Author's value:  171247.025 \n"
+[1] "Differing value for Key: taassc Row: 17844.txt Column: news_av_construction_freq_stdev \n"
+[1] "Our value:  136298.996 \n"
+[1] "Author's value:  136298.995 \n"
+[1] "Differing value for Key: taassc Row: 17844.txt Column: news_av_construction_freq_log_stdev \n"
+[1] "Our value:  136298.996 \n"
+[1] "Author's value:  136298.995 \n"
+[1] "No differing values for 17845.txt"
+[1] "Differing value for Key: taassc Row: 17846.txt Column: fic_av_construction_freq_stdev \n"
+[1] "Our value:  152969.087 \n"
+[1] "Author's value:  152969.086 \n"
+[1] "Differing value for Key: taassc Row: 17846.txt Column: fic_av_construction_freq_log_stdev \n"
+[1] "Our value:  152969.087 \n"
+[1] "Author's value:  152969.086 \n"
+[1] "Differing value for Key: taassc Row: 17847.txt Column: mag_av_lemma_freq_type \n"
+[1] "Our value:  465263.538 \n"
+[1] "Author's value:  465263.539 \n"
+[1] "Differing value for Key: taassc Row: 17849.txt Column: all_av_construction_freq_type \n"
+[1] "Our value:  360476.038 \n"
+[1] "Author's value:  360476.039 \n"
+[1] "Differing value for Key: taassc Row: 17849.txt Column: acad_av_lemma_freq_stdev \n"
+[1] "Our value:  570831.058 \n"
+[1] "Author's value:  570831.059 \n"
+[1] "Differing value for Key: taassc Row: 17849.txt Column: acad_av_lemma_freq_log_stdev \n"
+[1] "Our value:  570831.058 \n"
+[1] "Author's value:  570831.059 \n"
+[1] "No differing values for 17850.txt"
+
+> # Close debug file connection 
+> # sink()
+>   
+> 
+[1] "HELLO"
+[1] "HELLO"
