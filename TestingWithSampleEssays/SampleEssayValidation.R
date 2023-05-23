@@ -29,8 +29,9 @@ author_file_list <- list.files(path = author_output_folder, pattern = "*.csv", f
 # Store output data in dictionary in format (gamet: gamet_data, seance: seance_data, etc...)
 our_output_dict <- list()
 author_output_dict <- list()
+gamet_filenames <- list() # GAMET only processed portion of filenames, let's see ones it did 
 
-# Read each CSV file and store it in the dictionary
+# Construct our output dictionary 
 for (file in our_file_list) {
   filename <- basename(file)  # Extract the filename from the full path ("d7-training-gamet" -> "gamet")
   key <- gsub(".csv$", "", sub(".*-", "", filename))  # Extract the key from the filename
@@ -45,7 +46,6 @@ for (file in our_file_list) {
   
   # Get basename for each file in csv ("../../17834.txt" -> "17834.txt")
   file_path = data$filename[1] # 1-based indexing
-  print(file_path)
   # Fix windows filepaths so below basename() function works 
   if (startsWith(file_path, "C:")) {
     # Replacing backslashes with forward slashes
@@ -56,8 +56,19 @@ for (file in our_file_list) {
   data$filename <- basename(data$filename)
   our_output_dict[[key]] <- data
   
+  # Store GAMET filenames that it did process 
+  if(key == "gamet") {
+    gamet_filenames <- data$filename
+  }
 }
 
+# GAMET only processed a portion of the files - let's see the filenames it excluded
+# all_sample_essays <- list.files(path = "SampleEssays/", pattern = "*.txt")
+# excluded_files <- all_sample_essays[!all_sample_essays %in% gamet_filenames]
+# print(excluded_files) 
+# print(length(excluded_files))
+
+# Construct author output dictionary 
 for (file in author_file_list) {
   filename <- basename(file)  # Extract the filename from the full path
   key <- gsub(".csv$", "", sub(".*-", "", filename))  # Extract the key from the filename
