@@ -7,22 +7,22 @@ Using NLP Methods for Automated Essay Scoring.
 * All Downloaded Versions Match the Authors
 
 ### 2. Ensure feature extraction tool works by running it on one of their ASAP essays and ensuring the features come out when I run it match those of when they run it ### 
-* TO DO: Run TAASC will take a while due to dataset loading - use below options 
-<img width="412" alt="Screen Shot 2023-05-23 at 12 19 21 AM" src="https://github.com/Varun-Krishnan1/AutomatedEssayScoring/assets/19865419/9ed7e565-5d62-470c-ae13-04d5807d408e">
+* TO DO: They have more GAMET indices not even on official GAMET index sheet. Tried with GAMET 1.0 on Mac but no luck. Will try with GAMET 1.0 and 1.1 with Windows.
+* TO DO: TAASC Components differ between our outputs and theirs. (perhaps it is just updated?) 
 
-* TO DO: Use R to see what columns are missing and cross-reference with Gamet Index Spreaedsheet. Seance might not match due to negation control -> try again with it turned off if doesn't match. 
-* TO DO: Try TAALES on windows to see if hypernym + polysenyms load. If not exclude the hyper_ and poly_ indices based on index spreadhset (last set of indices on d7-training-taales.csv) 
-* TO DO: Use R to make sure all columns that match between the files have same values 
-
-Tested with first 14 essays in author's ASAP-D7/Training/ (17834-17850)    
+Windows used with JDK 17. MAC used with JDK 8.   
+Tested with first 14 essays in author's ASAP-D7/Training/ (17834-17850 excluding 17836.txt)  
 Options for the tools used to get the currect number of indices per tool (by cross-comparing with authors) stored in "Our Tool Options/"
+R File "ComparingOurOutputToAuthors.R" ensures all columns match and also checks for differing values between the dataframes.
 
-* GAMET does not match (too little features in our gamet version) → 1.0 is the only one available on their website and no other options to check to get more features.
-* SEANCE matches with adjusted options. Turned on negation control but unsure if that is what authors used. 
-* TAALED matches with adjusted options 
-* TAACO matches with adjusted options but only works on MAC! 
-* TAALES stuck at "Loading Hypernymy..." ! All other indices besides hyper_ and poly_ match. TAALES idx spreadsheet was useful in finding the right features. 
-* TAASC outputs 3 files - ...-taasc.csv, ...-taasc-sca.csv, ...-taasc-components.csv. TAASC spreadsheet useless.
+* GAMET does not match (too little features in our gamet version) → 1.0 is the only one available on their website and no other options to check to get more features. GAMET works on MAC with JDK 8. GAMET does not work on Windows with JDK 17. 
+* SEANCE matches with adjusted options. This is with negation control and matched with authors. Works on MAC and (probably) windows.
+* TAALED matches with adjusted options. Works on MAC and (probably) Windows.
+* TAACO matches with adjusted options. Works on MAC and (probably) Windows. 
+* TAALES matches with adjusted options. Had to use on Windows with JDK 17 to get hypernyms working. TAALES idx spreadsheet was useful in finding the right features. 
+* TAASC general output matches with adjusted options. Had to use TAASC on Windows with JDK 17. 
+* **TAASC components output do not match. **
+* TAASC SCA matches with adjusted options. 
 
 
 3. Download excel file from Suhaib then change it to csv to encode formulas as hard text and to get right number of rows
