@@ -66,19 +66,79 @@ The problem is we can't just use their pre-trained classifier since it expects a
 OR    
 **We could see what columns they had after filtering and hope our dataset has those too and just use those columns rather than using their feature_selection.py method. That way our inputs to the model match. **
 
-7. Cheating with feature_selection 
+## 7. Cheating with feature_selection ✅
 Rather than doing the feature_selection process outlined in feature_selection.py we will take the features that they selected for and just use those columns from our essays. This will ensure our input to their model is the same as their input.    
 
 We still have to ensure to MinMaxScaler() our variables as that is done in feature_selection.py. MinMaxScaler() was the only transformation done on the actual values of the cells which was confirmed in FeatureSelectionCheating.ipynb. The MinMaxScaler transformation was also done in FeatureSelectionCheating.ipynb and the normalized datasets were saved to SampleEssaysFeaturesTruncNormalized/. The file FeatureSelectionCheating.R was then used to generate the normalized datasets with the final features to be used in the input. These datasets are located at SampleEssaysFeaturesTruncCheatingNormalizedFiltered/ 
 
 We confirmed the features we had and the authors matched in ValidatingInput.py. 
 
-8. Decide on if using rubric_score_classifier.py, rubric_score_regressor.py, or rubric_score_multiple_regressor.py
+## 8. Using rubric_score_classifier.py to generate scores for our essays
+Now that we have confirmed the features we have and the authors match in ValidatingInput.py we can run their pre-trained model on our dataset. 
 
+**Our Rubric vs Authors:**
+Authors:    
+R1 - Ideas : Is the story told with ideas that are clearly focused on the topic and are thoroughly developed with specific, relevant details?     
+R2 - Organization : Are organization and connections between ideas and/or events clear and logically sequenced?     
+R3 - Style :Does the command of language, including effective and compelling word choice and varied sentence structure, clearly support the writer’s purpose and audience?     
+R4 - Conventions: Is the use of conventions of Standard English for grammar, usage, spelling, capitalization, and punctuation consistent and appropriate for the grade level?      
 
-10. Look into the chosen method from step 4 and download the respective pre-trained model from their osf source code. Pick the rubric section version that you want in our case probably start with rubric section 2 (organization) since it matches on both
-11. Run model.predict to get the output of their model on our dataset. Then compare that to the actual marking key scores remembering to ceiling the output values at 5 (max marking key score of organization rubric).   
+Ours:    
+R1 - CONTENT: Inclusion and elaboration of ideas and sense of audience and purpose.    
+R2 - ORGANISATION: Coherence and cohesion.    
+R3 - GRAMMAR: Use of syntactic patterns and grammatical accuracy.    
+R4 - VOCABULARY: Range and appropriateness. 
+R5 - SPELLING AND PUNCTUATION. 
+
+Workflow:    
+1. Make sure our filename column in each of our tools-filtered.csv files are in the same order. This is done with OrderRows.py and the correctly ordered CSV filse are saved in SampleEssaysFeaturesTruncCheatingNormalizedFilteredOrdered/ 
+2. Re-validate we didn't lose any features, feature order, or our overall shape when re-ordering the rows by running ValidatingInput.py
+3. Use Model Testing/sample_essays_rubric_score_classifier.py and choose which rubric to use. We first used their saved model for rubric section 2 of the authors (organization) since it is a rubric section that matches on both our rubric and theirs. The corresponding rubric section for us is Marking Key 3: Organization. 
+4. Write the mapping function to use for your corresponding rubric and assign it to the global variables. (Their range is [0,6] while our range varies) 
+5. Assing all other global variables accordingly 
+6. Run Script 
+
+From original paper regarding scoring: 
+> For D7, the resolved rubric scores were computed by adding the human raters’ rubric scores. Hence, each human rater gave a score between 0 and 3 for each rubric (Ideas, Organization, Style, and Conventions; see Table 3). Subsequently, the two scores were added together, yielding a rubric score between 0 and 6. Finally, the holistic score was determined according to the following formula: HS = R1 + R2 + R3 + (2 ∗ R4), for a score ranging from 0 to 30. 
+
+## 9. Evaluate generated scores for our essays from rubric_score_classifier
+The Prediction and Evaluation is done in Model Testing/sample_essays_rubric_score_classifier.py    
+
+Pre-Processing our Labels:     
+* Remove labels for file names that are not included in the 277 
+* Clip our actual labels to the maximum marking scores 
+
+Because it is not a 1:1 mapping between our scores and theirs we need other ways to evaluate our predicted labels:    
+* Correlation: See how well our scores correlate to their scores 
+* Plot Labels: Visually see how labels correlated
+* Classification Report: 
+ * Based on the classification report it looks like it routinely does not predict very low scores. This may be due to the little amount of low essays in the original dataset per rubric: 
+![image](https://github.com/Varun-Krishnan1/AutomatedEssayScoring/assets/19865419/bab71dd0-7109-4243-9338-28f9b3962e93)
+<img width="1288" alt="image" src="https://github.com/Varun-Krishnan1/AutomatedEssayScoring/assets/19865419/2ca9dc80-a823-46ab-964a-609d10767dde">
+
+TO DO: Compare our results to a "majority classifier" 
+* Their majority classifier (see image below) does significantly worse than ours meaning we have a very imbalanced dataset with too small of samples for analysis to be useful 
+<img width="1308" alt="image" src="https://github.com/Varun-Krishnan1/AutomatedEssayScoring/assets/19865419/216266df-dd29-44a2-91b9-5f5cdae61e04">
+* Our model does **not** outperform a majority classifier 
+
+TO DO: Save classification reports, heatmaps (see chatgpt4 for heatmap), rubric distributions, and accuracies for the models 
+
+**For RUBRIC 2 (Organization): **
+* Due to our max marking key score being 4 while their max marking key value is 6 we did a heuristic mapping to try to evaluate the predictions vs actual labels.    
+Our Key : Their Key 
+1       : 1,2
+2       : 3
+3       : 4
+4       : 5,6
+* This mapping resulted in the following result. 
+<img width="426" alt="image" src="https://github.com/Varun-Krishnan1/AutomatedEssayScoring/assets/19865419/003d936c-0487-4457-b045-61683ea38008">
+While not the greatest result manaully evaluating the output labels to the essays it doesn't seem too bad. 
+
 NOTE: Even though the prompts for the ASAP dataset are different let’s see if it learned something about organization…
+
+**For RUBRIC 3 (Content): ** 
+
+**For RUBRIC 4 (Test): **
 
 Problems:
 * The negation feature, which is based on Hutto and Gilbert (2014), checks for negation words in the 3 words preceding a target word. In SEANCE, any target word that is negated is ignored within the category of interest. For example, if SEANCE processes the sentence He is not happy the lexical item happy will not be counted as positive emotion word. → should we turn this on or not (obviously we should…)
