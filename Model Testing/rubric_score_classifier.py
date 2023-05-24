@@ -203,23 +203,4 @@ logs.to_csv('../log/performance_raw' + timestamp + '.csv', index=False)
 logs.groupby(['phase', 'iteration']).mean().reset_index().to_csv('../log/performance_val' + timestamp + '.csv', index=False)
 logs.groupby('phase').mean().reset_index().to_csv('../log/performance_avg' + timestamp + '.csv', index=False)
 
-# Feature importance
-qwk = make_scorer(quadratic_weighted_kappa, greater_is_better=True)
-exact = make_scorer(exact_match, greater_is_better=True)
-adj = make_scorer(adjacent_match, greater_is_better=True)
-adj2 = make_scorer(adjacent_match2, greater_is_better=True)
 
-(trainX, testX, trainY, testY) = train_test_split(X, Y, test_size=TEST_SIZE, random_state=123)
-(train_subsetX, valX, train_subsetY, valY) = train_test_split(trainX, trainY, test_size=VAL_SIZE)
-
-feature_importance_model = KerasClassifier(aes)
-es_callback = EarlyStopping(monitor='val_loss', min_delta=0.01, patience=50, verbose=1)
-feature_importance_model.fit(train_subsetX, train_subsetY, validation_data=(valX, valY), epochs=EPOCHS, batch_size=BATCH_SIZE, class_weight=class_weight_dict, callbacks=[es_callback], verbose=2)
-predictions = feature_importance_model.predict(testX, batch_size=BATCH_SIZE)
-perm = PermutationImportance(feature_importance_model, scoring=exact, cv='prefit').fit(testX, lb.inverse_transform(testY))
-feature_importance = eli5.explain_weights_df(perm)
-feature_importance = feature_importance.replace(to_replace=feature_dict, value=None)
-feature_importance.to_csv('../log/feature_importance' + timestamp + '.csv', index=True)
-np.savetxt('../log/confusion_matrix' + timestamp + '.csv', cm(lb.inverse_transform(testY), predictions), delimiter=',')
-with open('../log/classification_report' + timestamp + '.txt', 'w') as file:
-    file.write(classification_report(lb.inverse_transform(testY), predictions))
