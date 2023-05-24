@@ -60,13 +60,17 @@ X_our = np.concatenate((X1,X2,X3,X4,X5,X6,X7,X8), axis=1)
 
 print(X_author.shape)
 print(X_our.shape) 
+assert feature_dict_author == feature_dict_our
 
 # print(feature_dict_author == feature_dict_our) 
 # for key, value in feature_dict_author.items():
 #     if value != feature_dict_our[key]:
 #         print(value, feature_dict_our[key])
 
-print(X_author[:,-1])
+# Ensure the feature names are in the same order as well 
+assert np.array_equal(feature_dict_author.keys(), feature_dict_author.keys())
+
+# print(X_author[:,-1]) # Look at last file to spot-check
 # print(X_our) # Normalized
 
 
