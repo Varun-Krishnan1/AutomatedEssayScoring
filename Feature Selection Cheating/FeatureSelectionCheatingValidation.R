@@ -1,6 +1,6 @@
 ## ========================================== ## 
-## For Feature Selection: Check to see features (cols) that are different 
-## between our filtered dataset and theirs
+## For Feature Selection Cheating: Check to see features (cols) that are different 
+## between our cheating filtered dataset and theirs
 ## TO DO 
 ## 
 ## 
@@ -12,11 +12,11 @@
 library(tidyverse)
 
 # Ensure this is top-level folder for Feature Selection (.../Feature Selection)
-base_folder = "~/Desktop/AES/Feature Selection"
+base_folder = "~/Desktop/AES/Feature Selection Cheating"
 setwd(base_folder)
 
-our_output_folder = "SampleEsssaysTruncFiltered/"
-author_output_folder = "AuthorFeaturesFiltered/"
+our_output_folder = "SampleEssaysFeaturesTruncCheatingNormalizedFiltered/"
+author_output_folder = "../Feature Selection/AuthorFeaturesFiltered/"
 
 # Get a list of all CSV files in the folder
 our_file_list <- list.files(path = our_output_folder, pattern = "*.csv", full.names = TRUE)
