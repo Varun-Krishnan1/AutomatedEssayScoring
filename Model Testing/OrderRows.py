@@ -1,4 +1,6 @@
-# Ensure the row-order is the same for all files allowing for concatenation
+'''
+Ensure the row-order is the same for all files with features allowing for the fiels to be concatenated 
+'''
 import os
 import pandas as pd
 import re
