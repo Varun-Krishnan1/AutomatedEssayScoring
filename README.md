@@ -50,13 +50,34 @@ Using NLP Methods for Automated Essay Scoring.
 
 ### 5. Remove all files to match minimum number of processed files ✅
 * Because TAALED resulted in only 277 files being processed (17 being removed due to having words < 50) we removed the files from the csv of the other tools with "MinimProcessedRows.R" 
+* Saved in "SampleEssaysFeaturedTrunc/" 
 
-### 6. Run feature_selection.py on our csv files generated on step 2 to get equivalence to d7-training-filtered.csv 
-* Compare our filtered csv features to their filtered features and see what we are missing 
+### 6. Run feature_selection.py on our csv files generated on step 2 to get equivalence to d7-training-filtered.csv ✅
+* Ran feature_selection on "SampleEssaysFeaturedTrunc/" using FeatureSelection.ipynb
+ * Since the feature_selection package could not be imported for some reason just copied the source code into google colab 
+* Compare our filtered csv features to their filtered features and see what we have in common using FeatureSelectionValidation.R
+* Saved in SampleEssaysFeaturedTruncFiltered/
+
+After filtering we are left with 609 (minus the header) features to use for model training which will **not work!**. 
+
+Their workflow consisted of concatenating all their filtered features into a giant array of shape (1597, 397) where each row was an essay and each column was a filtered feature. They then split this into training and testing and ran a DNN Classifier on top of this to get their results. 
+
+The problem is we can't just use their pre-trained classifier since it expects an input of 397 columns. We instead have 608 features so we would have to train our own classifier for this to work.
+OR    
+**We could see what columns they had after filtering and hope our dataset has those too and just use those columns rather than using their feature_selection.py method. That way our inputs to the model match. **
+
+7. Cheating with feature_selection 
+Rather than doing the feature_selection process outlined in feature_selection.py we will take the features that they selected for and just use those columns from our essays. This will ensure our input to their model is the same as their input.    
+
+We still have to ensure to MinMaxScaler() our variables as that is done in feature_selection.py. MinMaxScaler() was the only transformation done on the actual values of the cells which was confirmed in FeatureSelectionCheating.ipynb. The MinMaxScaler transformation was also done in FeatureSelectionCheating.ipynb and the normalized datasets were saved to SampleEssaysFeaturesTruncNormalized/. The file FeatureSelectionCheating.R was then used to generate the normalized datasets with the final features to be used in the input. These datasets are located at SampleEssaysFeaturesTruncCheatingNormalizedFiltered/ 
+
+We confirmed the features we had and the authors matched in ValidatingInput.py. 
 
 8. Decide on if using rubric_score_classifier.py, rubric_score_regressor.py, or rubric_score_multiple_regressor.py
-9. Look into the chosen method from step 4 and download the respective pre-trained model from their osf source code. Pick the rubric section version that you want in our case probably start with rubric section 2 (organization) since it matches on both
-10. Run model.predict to get the output of their model on our dataset. Then compare that to the actual marking key scores remembering to ceiling the output values at 5 (max marking key score of organization rubric).   
+
+
+10. Look into the chosen method from step 4 and download the respective pre-trained model from their osf source code. Pick the rubric section version that you want in our case probably start with rubric section 2 (organization) since it matches on both
+11. Run model.predict to get the output of their model on our dataset. Then compare that to the actual marking key scores remembering to ceiling the output values at 5 (max marking key score of organization rubric).   
 NOTE: Even though the prompts for the ASAP dataset are different let’s see if it learned something about organization…
 
 Problems:
