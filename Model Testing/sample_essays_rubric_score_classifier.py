@@ -1,3 +1,5 @@
+import csv
+import pprint
 import numpy as np
 import pandas as pd 
 from tensorflow.keras.models import load_model
@@ -14,7 +16,7 @@ X6 = np.loadtxt("SampleEssaysFeaturesTruncCheatingNormalizedFilteredOrdered/Chea
 X7 = np.loadtxt("SampleEssaysFeaturesTruncCheatingNormalizedFilteredOrdered/Cheating-SampleEssays-components-filtered-ordered.csv", dtype='float', delimiter=',', skiprows=1, usecols=tuple(range(1,6)))
 X8 = np.loadtxt("SampleEssaysFeaturesTruncCheatingNormalizedFilteredOrdered/Cheating-SampleEssays-sca-filtered-ordered.csv", dtype='float', delimiter=',', skiprows=1, usecols=tuple(range(1,7)))
 X_our = np.concatenate((X1,X2,X3,X4,X5,X6,X7,X8), axis=1)
-
+print(X_our)
 # --- Get Labels ---
 
 RUBRIC_2 = 'Marking Key 2 Score'
@@ -25,14 +27,13 @@ acceptable_files = pd.read_csv("SampleEssaysFeaturesTruncCheatingNormalizedFilte
 
 # Filter rows in Y_all based on 'filename' column in acceptable_files
 Y_filtered = Y_all[Y_all['filename'].isin(acceptable_files['filename'])]
-
+print(acceptable_files['filename'])
 # Read in Rubric 2 column 
 Y = Y_filtered[RUBRIC_2].values
 
 # -- Validate Shapes -- 
 print(X_our.shape)
 print(Y.shape)
-print(Y)
 
 # --- Load the saved model --- 
 model_RUBRIC_2 = load_model('PreTrainedModels/train_model5(2019-11-21@21.51.01).hdf5')
@@ -44,6 +45,7 @@ predicted_scores = model_RUBRIC_2.predict(X_our)
 # so we need to convert these to actual scores. This can be done by
 # choosing the score with the highest probability.
 predicted_scores = np.argmax(predicted_scores, axis=1)
+print("Predicted Scores:")
 print(predicted_scores)
 
 # --- Creating ceiling for our labels --- 
@@ -55,6 +57,23 @@ Y = np.clip(Y, None, 4) # arr, min, max
 print("Clipped Y")
 print(Y) 
 
+
+# --- Checking Correlation --- 
+import matplotlib.pyplot as plt
+plt.plot(Y)
+plt.plot(predicted_scores)
+plt.show()
+correlation = np.corrcoef(Y, predicted_scores)[0, 1] # r=0.47
+print(f"Correlation : {correlation}")
+
+# --- Save Labels (for manual checking) --- 
+file_names = acceptable_files['filename'].values
+essay_to_predicted_scores = {file_names[i]:predicted_scores[i] for i in range(len(file_names))}
+save_file = 'PredictedLabels/Rubric2/EssayToPredictedScores.csv'
+with open(save_file, 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerows(essay_to_predicted_scores.items())
+
 # --- Heuristic Mapping of Labels to Predicted Scores --- 
 
 # Our max marking key for organization is a score of 4  
@@ -64,17 +83,25 @@ print(Y)
 # 2       : 2
 # 3       : 3-4
 # 4       : 5-6
+# macro avg       0.31, weighted avg       0.47      
+# Our Key : Their Key 
+# 1       : 1,2
+# 2       : 3
+# 3       : 4
+# 4       : 5,6
+# macro avg       0.32, weighted avg       0.40 
+
 
 def map_predictions(predictions):
     mapped_predictions = []
     for prediction in predictions:
-        if prediction in [1]:
+        if prediction in [1,2]:
             mapped_predictions.append(1)
-        elif prediction in [2]:
+        elif prediction in [3]:
             mapped_predictions.append(2)
-        elif prediction in [3, 4]:
+        elif prediction in [4]:
             mapped_predictions.append(3)
-        elif prediction in [5, 6]:
+        elif prediction in [5,6]:
             mapped_predictions.append(4)
     return mapped_predictions
 
