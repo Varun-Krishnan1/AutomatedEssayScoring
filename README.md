@@ -17,21 +17,20 @@ Low-Level Writing Features vs Transformer-Based Model:
 - TO DO: They have more GAMET indices not even on official GAMET index sheet. Tried with GAMET 1.0 on Mac but no luck. Will try with GAMET 1.0 and 1.1 with Windows.
 - TO DO: TAASC Components differ between our outputs and theirs. (perhaps it is just updated?)
 
-**NOTES:**
-
 - Windows used with JDK 17. MAC used with JDK 8.
 - Tested with first 14 essays in author's ASAP-D7/Training/ (17834-17850 excluding 17836.txt)
 - The files, for the mac version, were in us-ascii format according to the file -I command. Attempting to change the encodings to utf8 using the codecs python package as well as trying to use the chardet python package did not result in the encodings being changed. Turns out us-ascii is actually the preferred format because, as you will see below, GAMET does not handle seemingly utf-8 encoded files well...
-- Options for the tools used to get the currect number of indices per tool (by cross-comparing with authors) stored in "Our Tool Options/"
 - R File "ComparingOurOutputToAuthors.R" ensures all columns match and also checks for differing values between the dataframes.
 
-- GAMET does not match (too little features in our gamet version) → 1.0 is the only one available on their website and no other options to check to get more features. GAMET works on MAC with JDK 8. GAMET does not work on Windows with JDK 17.
+**Tools:**      
+- Options for the tools used to get the currect number of indices per tool (by cross-comparing with authors) stored in "Our Tool Options/"
+- **GAMET does not match (too little features in our gamet version)** → 1.0 is the only one available on their website and no other options to check to get more features. GAMET works on MAC with JDK 8. GAMET does not work on Windows with JDK 17.
 - SEANCE matches with adjusted options. This is with negation control and matched with authors. Works on MAC and (probably) windows.
 - TAALED matches with adjusted options. Works on MAC and (probably) Windows.
 - TAACO matches with adjusted options. Works on MAC and (probably) Windows.
 - TAALES matches with adjusted options. Had to use on Windows with JDK 17 to get hypernyms working. TAALES idx spreadsheet was useful in finding the right features.
 - TAASC general output matches with adjusted options. Had to use TAASC on Windows with JDK 17.
-- **TAASC components output do not match. **
+- **TAASC components output do not match.** 
 - TAASC SCA matches with adjusted options.
 
 ### 3. Convert excel responses to .txt files ✅
@@ -62,7 +61,7 @@ Low-Level Writing Features vs Transformer-Based Model:
 - Because TAALED resulted in only 277 files being processed (17 being removed due to having words < 50) we removed the files from the csv of the other tools with "MinimProcessedRows.R"
 - Saved in "SampleEssaysFeaturedTrunc/"
 
-### 6. Run feature_selection.py on our csv files generated on step 2 to get equivalence to d7-training-filtered.csv ✅
+### 6. Run feature_selection.py on our csv files generated get equivalence to d7-training-filtered.csv ✅
 
 - Ran feature_selection on "SampleEssaysFeaturedTrunc/" using FeatureSelection.ipynb
 - Since the feature_selection package could not be imported for some reason just copied the source code into google colab
@@ -75,7 +74,7 @@ Their workflow consisted of concatenating all their filtered features into a gia
 
 The problem is we can't just use their pre-trained classifier since it expects an input of 397 columns. We instead have 608 features so we would have to train our own classifier for this to work.
 OR  
-**We could see what columns they had after filtering and hope our dataset has those too and just use those columns rather than using their feature_selection.py method. That way our inputs to the model match. **
+**We could see what columns they had after filtering and hope our dataset has those too and just use those columns rather than using their feature_selection.py method. That way our inputs to the model match.** <- This is what we're going to do with "cheating" in the next step 
 
 ## 7. Cheating with feature_selection ✅
 
@@ -85,7 +84,7 @@ We still have to ensure to MinMaxScaler() our variables as that is done in featu
 
 We confirmed the features we had and the authors matched in ValidatingInput.py.
 
-## 8. Using rubric_score_classifier.py to generate scores for our essays
+## 8. Using rubric_score_classifier.py to generate scores for our essays ✅
 
 Now that we have confirmed the features we have and the authors match in ValidatingInput.py we can run their pre-trained model on our dataset.
 
@@ -113,7 +112,7 @@ From original paper regarding scoring:
 
 > For D7, the resolved rubric scores were computed by adding the human raters’ rubric scores. Hence, each human rater gave a score between 0 and 3 for each rubric (Ideas, Organization, Style, and Conventions; see Table 3). Subsequently, the two scores were added together, yielding a rubric score between 0 and 6. Finally, the holistic score was determined according to the following formula: HS = R1 + R2 + R3 + (2 ∗ R4), for a score ranging from 0 to 30.
 
-## 9. Evaluate generated scores for our essays from rubric_score_classifier
+## 9. Evaluate generated scores for our essays from rubric_score_classifier 
 
 The Evaluating is done in Model Testing/evaluate_preds.py
 
