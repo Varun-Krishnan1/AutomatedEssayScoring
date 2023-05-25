@@ -15,7 +15,7 @@ library(tidyverse)
 # output_file <- "ComparisonResults.txt"
 # sink(output_file)
 
-# Ensure this is top-level folder for Sample Essays (.../Sample Essays)
+# Ensure this is top-level folder for Sample Essays (.../TestingWithSampleEssays)
 base_folder = "~/Desktop/AES/TestingWithSampleEssays"
 setwd(base_folder)
 

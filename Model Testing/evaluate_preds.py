@@ -16,9 +16,9 @@ from map_predictions import map_predictions_rubric
 # R5 - SPELLING AND PUNCTUATION
 
 # Organization (Rubric 2 - Organization(author) vs Rubric 2 - ORGANIZATION(ours))
-# OUR_RUBRIC_NAME = 'Marking Key 2 Score'
-# OUR_RUBRIC_MAX_SCORE = 4
-# AUTHOR_RUBRIC_NAME = 'Rubric2'
+OUR_RUBRIC_NAME = 'Marking Key 2 Score'
+OUR_RUBRIC_MAX_SCORE = 4
+AUTHOR_RUBRIC_NAME = 'Rubric2'
 
 ## Grammar (Conventions(author) vs GRAMMAR(ours))
 # OUR_RUBRIC_NAME = 'Marking Key 3 Score'
@@ -26,9 +26,9 @@ from map_predictions import map_predictions_rubric
 # AUTHOR_RUBRIC_NAME = 'Rubric4'
 
 ## Style (Style(author) vs VOCABULARY(ours))
-OUR_RUBRIC_NAME = 'Marking Key 4 Score'
-OUR_RUBRIC_MAX_SCORE = 5
-AUTHOR_RUBRIC_NAME = 'Rubric3'
+# OUR_RUBRIC_NAME = 'Marking Key 4 Score'
+# OUR_RUBRIC_MAX_SCORE = 5
+# AUTHOR_RUBRIC_NAME = 'Rubric3'
 
 # --- Get Actual Lables --- 
 Y_all = pd.read_csv("SampleEssayLabels/SampleEssaylabels.csv")
@@ -66,8 +66,10 @@ print(f"Predicted Scores (Clipped) Shape: {Y.shape}")
 
 # --- Get Statistics for Our Labels ---
 # See distribution of our rubric
-# unique, counts = np.unique(Y, return_counts=True)
 
+import matplotlib.pyplot as plt 
+
+# unique, counts = np.unique(Y, return_counts=True)
 # plt.bar(unique, counts)
 # plt.xlabel('Labels')
 # plt.ylabel('Count')
