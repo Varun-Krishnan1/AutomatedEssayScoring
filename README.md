@@ -200,7 +200,21 @@ Process:
 
 ## Using GPT
 
-- In the GPT/
+### 1. Preparing Input
+
+- Inspired from this paper: https://osf.io/2uahv)
+- Code located in the GPT/ folder
+- PrepareInput.py: Creates a prompt followed by the essay to score based on prompt from above paper. Essays to score are saved in batches due to limitations of GPT input size. Batches are saved in GPT4_Input/
+
+### 2. Predicting Labels
+
+- Each file (i.e batch of essays) in GPT4_Input/ is fed one-by-one to GPT4 and the corresponding labels predicted by GPT4 are hard-coded in evaluateGPTLabeling.py
+
+### 3. Evlauting Labels
+
+- The evluation is done in evaluateGPTLabeling.py: similar to how the model created from Kumar et al's paper is evaluated in Model Testing/evaluate_preds.py the same evaluation metrics are used and the output saved in GPT4_Evaluation/
+
+### 4. Conclusions from GPT Evaluatino
 
 ## Future Steps
 
