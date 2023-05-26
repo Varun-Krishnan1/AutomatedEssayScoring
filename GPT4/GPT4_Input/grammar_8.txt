@@ -1,0 +1,123 @@
+I would like you to mark the grammar of an essay. Each essay is assigned a rating of 1 to 5, with 5 being the highest and 1 the lowest. You don't have to explain why you assign that specific score. Just report a score only. Present the scores as an array ordered from your first essay score to the last. The essay is scored based on the following rubric: Use of syntactic patterns and grammatical accuracy.
+
+Essay 141:
+It is generally believed that some supermarkets have benned plastic bags in recent years. Some students belived that the school should keep using plastic bags. However, in my opinion, plastic bags should be banned in my school. I am going to elaborate my point in the following paragraphs.
+First of all, using plastic bags will pollute the envoirment seriously. Nowadays, many people are using the plastic bags, but the plastic are harmful for the ground. It can pollute crops, when people eat food, they might be get poisoned. And using the plastic bags will make people get sick, more serious cases will lead to disease.
+Secondly, using plastic bags will cause the death of sea animals. Today, many sea animals die from eating plastic bags. Not only because people throw plastic bags, but also because people produce plastic bags. There is a kind of harmful gas in plastic bags, which can harm people and animal organs. If sea animals die out, it will cause indescribable harm to people and the world. Land animals are no exception too. 
+In conclusion, people needs to reduce the using of plastic bags and the production of the plastic bags, and plastic bags should also be banned at school.
+
+Essay 142:
+My favorite superhero would be Spiderman, also known as Peter Parker in his series. I've always admired his character as he was a big part of my childhood. His main appearance has a suit that covers his entire body along with a mask that allows him to see through the eyepatches. It's covered in red, black and blue colors with what seems like to be spiderwebs drawn across his body, with a big black spider icon patched on it's chest. Their special abilities and skills are based off of a spider's abilities such as climbing and sticking onto walls, having able shoot webs out of his wrists and grants him superhuman strength.
+Spiderman has kind intentions and polite way to handle things, that's what makes me like more about him. The idea of being based off of a spider and using it's abilities to move around and help others in need is purely kind and amazing. That's what makes me admire him the most out of any other superheros.
+
+Essay 143:
+There are a lot of superheros in books or movies, and who is my superhero? My favourite superhero is Wolverine. This essay will look at my superhero and why I like him.
+Wolverine is a human adult with hair tilt up on each side. His superpower can stretch out paws from his hand, heal himself very fast, and he is also very strong. Sometimes his healing time can be faster than the time he's getting hurt. Thats why he's so strong in the movie X-man.
+I like Wolverine the best is because he never gives up his team mate. He has the leader spirit and mostly he's handsome. I suppose Wolverine is difinitely the optimal superhero to exist.
+
+Essay 144:
+Plastic bags have been a staple to our lifestyle for a lengthy amount of time. Huge amounts can be purchased for very cheap, it's fairly easy to dispose, and can be used for a variety of different things. However, plastic bags are a threat to the environment. The core material, plastic, does not break down and because it's very light, plastic bags are able to get stuck in cracks and crevices of the earth. For example, when these bags float into the sea, or a body of water living things such as fish or turtles might get stuck in the plastic or even start to consume it. Chemicals released by the plastic bags get into the soil and ruin it. In the long run, using plastic bags is not worth it for the environment. The good news is, there are so many more sustainable alternatives to fight this problem! Instead of using plastic bags to bring your lunch, or carry around food, reusable totes or lunch bags are fantastic for the job. Let's say you've just done PE and you don't want dirty clothes floating around your backpack, dry bags make cleaning up super easy. All these replacements for plastic bags lasts, are harmless to the environment, and work the same way plastic bags would. We can all help the world by making small changes together. Let's stop using plastic bags! 
+
+Essay 145:
+                                                                                                          Should plastic bags be banned in school ?
+                                                                                                                                     By Micah Pang 
+
+Nowadays people can find plastic bags anywhere, but do you know what can a plastic bag do to the nature ? Plastic bags can lead to serious risks like sea pollution, overflowing landfills, broken down into toxic substances. All though plastic bag is harmful, people still use it because it is convinent and therefore number of serious problems produced by plastic bag has been increasing. 
+
+Here are some reasons why plastic bag should be banned. Firstly, plastic bags can ruin the ecosystem. For example, there are many cases about sea turtle eating plastic bag because they thought that was jelly fish. As a result, the sea turtles died because they are not able to digest the plastic bags. Another reason is that plastic bag can overflow the landfills. Plastics are substances that are hard to decompose, it may need 1000 years to be decompose. In this 1000 years, the plastic bag will be broken down slowly and continue to pollute the environment. Therefore plastic bags should be banned in school. 
+
+People may worry that their banning plastic bags in school may affect them. For example they may need to bring a bag when they are buying things in the school. We can use items like paper bags to replace plastic bags. Shops in school can change to sell paper bags instead of plastic bags to students. If students don't want to buy paper bags from the shops, they can bring their own bag to school. And this won't affect students and it will be covinient too. 
+
+In conclusion, I believe that plastic bags should be banned in the school so we can save the environment and also the animals. According to the ideas above, students can use different items or ways to reduce the number of plastic bag used in the school. We should build a community that cares and therefore the school should ban plastic bags to save the world. 
+
+Essay 146:
+My favourite superhero is Wonder Woman. Flowing long black hair, serene face, bright sparkling eyes, magnificent armor and a shining sword -- when people speak of Wonder  Woman, the image of her comes to mind immediately. I still remember I first saw this character on TV. I was pleasantly surprised as the superhero characters were mostly males. Once I had my eyes on her, my eyes were completely glued to the screen as Wonder Woman's stunning looks and her astonishing combat skills captured all of my attention. Wonder Woman possesses inhuman strength, agility, and combat skills, being able to leap really high and sprint for long distances without tiring. I admire Wonder Woman because she has a direct, straight-forward, honest personality: she always says the truth and does not seem to be much exposed to the evils of the world, being innocent and pure even after experiencing a lot. She is kind and selfless, willing to sacrifice herself to save humans. This superhero also means much to me because it is a symbol of the strength of feminity. She is proof that girls can be heroes too and accomplish great things, giving me courage to stand up for myself in daily life. When I encounter troubles in daily life, I always think :  " Wonder Woman would never give up and fight till the end despite difficulties; I must not give up also!" I look up to Wonder Woman as an ideal example and I admire her for all her amazing qualities. I have much to learn from her and she is definitely my favourite superhero!
+
+Essay 147:
+It was the usual day. I was at home, when suddenly someone rang at the door. I came to the door, opened it and saw a beautiful tall man with brown eyes and hair and a lovely smile. The man was Dima Bilan, a famous Russian singer. Dima Bilan took part in Eurovision twice, and even took first place in it in 2008. It was a big surprise for me that he came. 
+
+Essay 148:
+Dear Piper Maclane ,
+Hi piper ! I'm Lucy - your old kindergarden friend, do you remember me ? Yesterday, i had a good dream,so I'm going to tell you about it. It's really funny! I dream that Lunas , Helios me and the other friends are playing hide and seek. We want to go upstair so we step on the escalator that has a warning sign. Actually that's what Lunas probbally do. To stop her, Helios and I run onto the escalator's stairs. But, right when we step on the first stair of the escalator, it take us to the another world. At the time we land on it , we are very scared. We saw a fire dragon, a witch and many other fiction things. We scream very loud. I think I can't tell you the end because i woke up after that. What's your  dream ?  Tell me !
+Love, Lucy
+
+Essay 149:
+            My favorite superhero is the sister in " Incredible". She is a junior high student who has special skills. She is a girl who is quite skinny and has black long hair with big blue eyes. She is a superhero who have many special powers. She is able to be invisible, attack enemies with her power and she is also able to make a big bubble which has the power of protection. In the moive, she used her invisible skill to get close to her enemies and use her attack skill to attack them. If they fight back, she would make a big bubble to protect she and her family.
+            I admire this superhero so much because I hope I am able to have the power of being invisible and making bubble for protection, and she is also able to protect her family. Having the power of being invisible is a good way of running away form the people is attacking you without being noticed. Furthermore, having the skill of making protection bubble can protcet not just only me, I can also protect my family. Having these power in these days might not be very useful, but if there is a war going on, it will be the best tool to escape.
+
+Essay 150:
+Dear Bob,
+
+Last night, I had an incredible dream.  I was in a world made up of only food and drinks.  Everything was edible, just like an all-you-can-eat buffet!  There were gingerbread people, candy cane traffic lights, ornage juice rivers, biscuit animals and cars made of hot dogs! 
+
+I saw my family next to me, but to my surprise, they were entirely made of marshmallows.  I began munching ont the trees, which were enormous bunches of broccoli, but instead of brocolli, honey was oozing out.  Suddenly, it was snowing ice-cream everywhere.  I saw a gigantic drumstick and rushed to get a bite, but I woke up to discover that I rolled out of bed.  It was heaven for a child who likes to eat, like me.
+
+I wish that I could visit this world again in the future.  It is the best dream 
+ 
+
+Essay 151:
+If a famous person comes to my home, it would be a basketball star because I really admire their passion, their mentality and their sportsmanship. He would be as tall as skyscapers and be very passionate to share about his career and dreams. I should be inspired by their words and have a stronger ambition to follow my dreams. 
+
+I would ask him about how he got so passionate about his dream and were there any obstacles during his journey. If yes, how did he overcome the obstacles and be who he is today. Also, since I am basketball fan, I would like to know more about how he communicates with his teammates on the court and ask him to give me some advise about basketball. He should be as patient as an ox. 
+
+I would show them the Basketball collage in my room. The magnificent artwork is as vivid as a rainbow and has motivated me thoughout my whole childhood. It is made out of pictures of my idols including a lot of NBA players. I would like to show gratitude to them for making basketball such a nice sport to watch and ask him for an autograph. It would be the best time in my life! This would be a moment of a lifetime and will enhance my life and deliver happiness to the bottom of my soul. Also, I would show him my collection of pictures of him in my home as a sense of respect and admiration. 
+
+If we have more free time, I would bring him to the basketball court and play some basketball. I would also show him around the community and reveal the hidden in the society near my home and bring him to local restuarants to learn more about our tradition and culture.
+
+Finally, I would like to thank him for visiting me and I hope we will meet again in the future. This was a moment of a lifetime and I am very grateful for everything that happened in my life. 
+
+ 
+
+Essay 152:
+The strangest animal I have seen is a cheetah. It has yellow fur with black spots. It's small eyes and sharp teeth makes it look unfriendly.
+Most cheetahs live in the plains or in zoos. The first time I have seen a cheetah was in an animal documentary. I am very scared of cheetahs since they have sharp teeth and they are very fast.In the animal documentarys, they often catch animals in the blink of an eye, and eat them. The scene is quite frighteneing for me. Therefore, I think a cheetahs is a dangerous creature.
+Despite its threatening looks, a cheetah can only chirp like a bird! When I first saw cheetahs, I thought they will roar loudly like lions. I was very surprised when I heard their sound at first.
+Therefore, a cheetah is definitly the strangst animal I have ever seen. I will never judge a book by its cover again!
+
+Essay 153:
+a famous person came to my house.it was jk rowling, she had beautiful gringer hair and a pair of icy blue eyes, she was a author, a amazing book writer, i enjoyed her books really much, the reason why she is famous is because of her book 'Harry Potter' harry potter was a book about a boy named harry, his parents died by a dark wizard names voldemort,voldemort was after got defeted ,and left harry a ligthing blot scar,thats why everyone in the wizarding world knows him he was known has 'the boy who lived', he lives with his aunt a uncle vernon and petruina and their son dudley, he had a really difficult life, he had to do everthing for his aunt and uncles family he lives under the stairs, usally gets beaten up by his uncle or dudley, one day he got a letter, inside was a letter for going to hogwarts, hogwarts was a magical school for witches and wizards, they get to learn how to fly a broom or learn different spells.and there are also 4 houses in hogwarts first is grifynndor second is hufflepuff thrid was ravenclaw and then slytherin,all four houses meant something gryfinndor meant that they are brave hufflepuff meant that they are really kind and friendly and ravenclaw meant that they  very smart and intelligent,and last slytherin meant they are vevry cunning,harry was sorted into grifynndor, in the way he made many friends.in hogwarts there are 7 years,each year you learn more important things,past years he was been in alot of serious troubles, such as killing a huge snake in the chamber of sercert and etc.harry in his 7th year he met alot of trouble such as like friends dieing and voldemort returning,he had to find ways to destory horcux, which was made by voldemort.i feel like jk rowling did amazing she was the one who brought up all my happines and how she brought up the wizarding world,of course ill show her  my house,most of stuff in my room is all harry potter themed.
+
+Essay 154:
+Hello I am your friend Helen. I have a interesting dream last night . I want share it to you. I dream adout I am an Australian I study there. We have house there and you are an Australian to. We can go to the beach ever day. One day when we go to the beach,there is a shark next us I am afraid and you are afraid to.
+
+Essay 155:
+Have you ever imagine a famous person comes to your home? I have. I have imagined a famous person comes to my home who is a very beautiful woman. Her appearance let people think she is very mature but a bit dangerous, like roses, beautiful but harmful. She is very famous in Hollywood as she has acted in about 30 character which are all apprciate by the film critic as well as the audiences. When she arrived, I will welcome her in front of my daimon and start chatting with her. I would probably talk questions about the movie that she have acted in. For example, how hard she was when she was doing some dangerous action in the film, has she ever met some nasty actor, what does she usually do before filmimg a movie, etc. These questions are able to let me know more about filming is not that easy, but needs a lot of effort and patience. After chating with her, I will invite her to come into my room and show all the postures, cards, magazines which all about her in order to she how much I like her. At last, I will have lunch with her and welcome her to come next time. It must be an excited experience if it is true!
+
+Essay 156:
+My idol's name is Hyujin. If he'd come to visit my house, I bet he will look really handsome and tall. I would want to hear his strong voice and see his amazing dance. I would tell him I'm his biggest fan and really like his red hair. I would show him my room first and tell him I'm also an anime fan. I want him to see my big collection of mangas and figures, also K-pop albums. I would also ask him to watch some anime movies with me, it would be a lot of fun. 
+
+Essay 157:
+Here he comes! Swinging through the city! From an ordinary human, to a superhero that saved millions of lives, just in one night! The films about him showed how powerful he was as a sueprhero, but also his strength thoughout his childhood which was filled with loss. My favourite superhero is SpiderMan! SpiderMan, also known as Peter Parker, is a young boy that has arachnid like powers, he wears a red and blue creepy yet cool suit and has self-designed web shooters to catch and criminal in sight. He also mastered a special skill called "Spider Sense", it warns him of  upcoming danger. As stealthy as a cheetah, as sneaky as a thief, he always manages to save humanity. 
+
+After his beloved Uncle Ben died to a burglar, grief-stricken Peter was determined to protect his city, and thoughout his missions, he learnt a indispensable lesson, "With great power come great responsibility". I adore Spiderman because it is very relatable since he goes through somethingthat basically everyone has to go through. When he has power, he forgets about family and his responsibility and he also has problems with relationships and guilt. I'm sure that's the case for most teenagers at his age. Also, another reason why I adore spiderman so much is because of his superhuman powers, clinging to walls like bats, swinging to places like monkies, and using webs to catch "prey" like spiders. 
+
+SpiderMan is such an iconic, intelligent and heroic superhero. He is in everyone's childhood memories, and I'm sure everyone would wish to have his powers to save the world!
+
+Essay 158:
+In modern times, there are lots of different celebrities who are all famous for a variety of things.
+
+In the unlikely event of a celebrity visiting my home, he/she would likely be famous because of the books he/she writes since I enjoy reading. Reading is like water to me, I need it to survive. My favourite author is J.K Rowling. She has hair the shade of copper which frames her face elegantly, matching with her long and elegant nose. She has stunning and bright blue eyes and thin lips. J.K Rowling is most famous for her book series Harry Potter. I am fascinated with the way she can make an entire world with words, sentences, paragraphs, and chapters.
+
+If she ever did visit me, I would make sure to prepare a lot of questions about the process of writing, for example, 'Is writing and publishing a book distressing and tiring in any way?' I would ask these questions because I would like to become a writer someday since in my opinion, spinning a world out of words seems very tempting and also interesting. It would be an exciting way to share my thoughts to people all across the world.
+
+The thing I wouldn't hesitate to show her would be my study room. This is because books are scattered everywhere in my room. My books are my most precious possesions and I usually don't return all of them to the bookshelf since it is already brimming with books. There even is a loose nail in the corner because of the weight of all the books. I sincerely hope that J.K Rowling would approve of my messy book-filled room. I would also show her some of the short descriptions of different places I have written over the years and ask for her commentary and advice.
+
+It would be such a huge wonder if J.K Rowling, or any celebrity, came to visit my home.
+
+Essay 159:
+  Do you have a favourite superhero? Yes, I have. My favourite superhero is spiderman. He looks very handsome when he doesn't wear his battle suit. However, when he wear on his battle suit, he shows a different feeling which makes me feel that he is a strong and protective person. 
+  He has one special skill, which is the reason why this superhero is very popular, the spider silk. With his battle suit, he is able to shot spider silks from his arms to the targets, such as buildings, people, the weapons of the opponents, etc. These spider silks can help him to swing between the buildings, climb on the wall and stop the movements of his opponents. As a result, it is a very useful weapon or skill for spiderman. 
+  The reason why I admire spiderman is that he is very helpful and kind. After he knew that he has the ability to shot spider silks, he use this ability to fight against the bad guys and save people in the city, but not use them to harm others. Moreover, heis a perseverance person. Even though he was at a disadvantage in the battle between the bad guys, still, he stand up a fight, but not escape. He shows a lots of good personality in the movies and this is the main reason why I admire him. 
+  Spiderman is a really kind and tough person and he is my favourite superhero.
+
+Essay 160:
+
+
+Nowadays ,environmental pollution has cauasd great harm to earth and society, Therefore, we will prohibit the use  of piastic bags in schools. Every student should abide by such arule. so in this article I will discuss why we need to stop using gags.
+
+First of all,plastic bags are very common in our life. But obviously, the Current Situation of the Earth is by environment tells uS the best bags will cause great Damage to the environment for example when people through plastic bag Into the sea is seriously damage the ecological bound the sea and cost Damage to marine life due to a mental pollution and lack of field Turtles Not use the plastic bags including some fish and sea birds.
+
+ Second plastic Garbage bags will pollution to the renvironment Some People through the Mount around or the park when they GO to restaurant or supermarkets plastic is Material that's Not Easy to be crowded so the Damage plastic to the environment is very Permanent.
+
+Third plastic bags are Not Beautiful we should choose Close backs
+ 

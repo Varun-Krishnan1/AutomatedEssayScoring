@@ -2,11 +2,12 @@
 
 Using NLP Methods for Automated Essay Scoring.
 
-Low-Level Writing Features vs Transformer-Based Model:
+## Using low-level Writing Features
+
+**Low-Level Writing Features Advantages:**
 
 - Advantages of using low-level writing features is that we can use the 20 most important low-level features the author found per rubric and report that to the user and say how they did on those features and they can use that to improve...
-
-## Using low-level Writing Features
+- As shown in the paper here (https://osf.io/2uahv) GPT alone does a worse job predicting essay scores than using low-level features alone. Paper also shows lower reliability (QWK) when using GPT alone vs low-level features alone
 
 ### 1. Downloaded feature extraction tools from OSF Database ✅
 
@@ -22,7 +23,8 @@ Low-Level Writing Features vs Transformer-Based Model:
 - The files, for the mac version, were in us-ascii format according to the file -I command. Attempting to change the encodings to utf8 using the codecs python package as well as trying to use the chardet python package did not result in the encodings being changed. Turns out us-ascii is actually the preferred format because, as you will see below, GAMET does not handle seemingly utf-8 encoded files well...
 - R File "ComparingOurOutputToAuthors.R" ensures all columns match and also checks for differing values between the dataframes.
 
-**Tools:**      
+**Tools:**
+
 - Options for the tools used to get the currect number of indices per tool (by cross-comparing with authors) stored in "Our Tool Options/"
 - **GAMET does not match (too little features in our gamet version)** → 1.0 is the only one available on their website and no other options to check to get more features. GAMET works on MAC with JDK 8. GAMET does not work on Windows with JDK 17.
 - SEANCE matches with adjusted options. This is with negation control and matched with authors. Works on MAC and (probably) windows.
@@ -30,7 +32,7 @@ Low-Level Writing Features vs Transformer-Based Model:
 - TAACO matches with adjusted options. Works on MAC and (probably) Windows.
 - TAALES matches with adjusted options. Had to use on Windows with JDK 17 to get hypernyms working. TAALES idx spreadsheet was useful in finding the right features.
 - TAASC general output matches with adjusted options. Had to use TAASC on Windows with JDK 17.
-- **TAASC components output do not match.** 
+- **TAASC components output do not match.**
 - TAASC SCA matches with adjusted options.
 
 ### 3. Convert excel responses to .txt files ✅
@@ -74,7 +76,7 @@ Their workflow consisted of concatenating all their filtered features into a gia
 
 The problem is we can't just use their pre-trained classifier since it expects an input of 397 columns. We instead have 608 features so we would have to train our own classifier for this to work.
 OR  
-**We could see what columns they had after filtering and hope our dataset has those too and just use those columns rather than using their feature_selection.py method. That way our inputs to the model match.** <- This is what we're going to do with "cheating" in the next step 
+**We could see what columns they had after filtering and hope our dataset has those too and just use those columns rather than using their feature_selection.py method. That way our inputs to the model match.** <- This is what we're going to do with "cheating" in the next step
 
 ## 7. Cheating with feature_selection ✅
 
@@ -106,13 +108,14 @@ Workflow:
 
 1. Make sure our filename column in each of our tools-filtered.csv files are in the same order. This is done with OrderRows.py and the correctly ordered CSV filse are saved in SampleEssaysFeaturesTruncCheatingNormalizedFilteredOrdered/
 2. Re-validate we didn't lose any features, feature order, or our overall shape when re-ordering the rows by running ValidatingInput.py
-3. Use Model Testing/model_classifier.py and choose which rubric to use. This script will then save the predicted labels in PredictedLabels/
+3. Use Model Testing/model_classifier.py and global variables depending on the rubric used. This script will then save the predicted labels in PredictedLabels/
+   - This script loads in their pre-trained model for a given rubric they trained on and then uses that model to predict a given Markign Key from the sample essays
 
 From original paper regarding scoring:
 
 > For D7, the resolved rubric scores were computed by adding the human raters’ rubric scores. Hence, each human rater gave a score between 0 and 3 for each rubric (Ideas, Organization, Style, and Conventions; see Table 3). Subsequently, the two scores were added together, yielding a rubric score between 0 and 6. Finally, the holistic score was determined according to the following formula: HS = R1 + R2 + R3 + (2 ∗ R4), for a score ranging from 0 to 30.
 
-## 9. Evaluate generated scores for our essays from rubric_score_classifier 
+## 9. Evaluate generated scores for our essays from rubric_score_classifier
 
 The Evaluating is done in Model Testing/evaluate_preds.py
 
@@ -137,6 +140,8 @@ TO DO:
   - Add QWK (in author's metrics.py) and HeatMap (see GPT)
 - Have separate folders for each metric and save files for that given metric in that metric's folder with the above format
 
+- See what low level features of the 397 are from what tool -> possible allows us to know if we can eliminate tools from our pipeline if their features are not going to be used OR could limit the options we have to select for certain tools (such as the incredibly long LDA option). However, if we train our own model we will have to actually filter the features by variance and colinearity and hence, will get a new set of features that we will have to see what tools it comes from.
+
 ### 10. Conclusions from Evaluation
 
 - Based on the classification report it looks like it routinely does not predict very low scores. This may be due to the little amount of low essays in the original dataset per rubric:
@@ -159,22 +164,44 @@ TO DO:
   <img width="426" alt="image" src="https://github.com/Varun-Krishnan1/AutomatedEssayScoring/assets/19865419/003d936c-0487-4457-b045-61683ea38008">
   While not the greatest result manaully evaluating the output labels to the essays it doesn't seem too bad.
 
-**For RUBRIC 3 (Content): **
+**For RUBRIC 3 (Content):**
 
-**For RUBRIC 4 (Test): **
+**For RUBRIC 4 (Test):**
 
 ## Problems with Low-Level Features:
 
+**Problem's that can be solved if we train our own classifier:**
+
 - Their rubric and our rubric don’t align (eg we have spelling/grammar and vocab whereas they just have conventions)
 - Scores don’t align (their max is 6 ours is 5,4, and even 2)
-- Their prompt is different from ours. ALSO each of our prompts are different unlike theirs where all essays followed the same prompt which means their test set had the same prompt as the training set.
+- Their prompt is different from ours.
+
+**Problems that we need to ask Suhaib about:**
+
+- The dataset we have - does the distribution of rubric scores match that of the real-world?
+- the dataset we have is incredibly noisy and responses that shouldn't be getting very high scores are getting those scores (eg, essays 2,3,4, etc...)
+- Each of the prompts in the paper he gave us are different unlike the Author's model where all essays followed the same prompt which means their test set had the same prompt as the training set.
+  - This also allows for learnign the content/ideas rubric because it's trained on prompt so doesn't need context of prompt whereas if the prompts are different everytime we need to somehow use a model that has context of that question (transformer-based model)
+- What is going to be the range of the grading rubric? (Hopefully a bigger range so a majority classifier doesn't do just as well as us)
+- Are the rubrics going to be the same for all essays or will the rubrics vary?
 
 ## Using Transformer-Based Model
 
-Double fine-tuning:  
-ASAP-AES -> Text flagged with incorrect words and spelling error -> pre-trained LLM -> fine-tuned LLM  
-Fine-tuned LLM -> Suhaib Dataset with flagged incorrect words and spelling error -> Fully fine-tuned LLM
+**Transformer-Based Model Advantages:**
 
-Additional Thigs to Try:
+- Can allow for context of prompts letting you predict essays with different prompt from training data
+- Lu and Hu (2022) showed that two of the context-aware lexical sophistication measures created with contextualized word embeddings using the BERT model correlated more strongly with L2 English writing quality than traditional lexical sophistication measures obtained with TAALES.
 
-- Using low-level writing features + raw text with a transformers model
+Process:
+
+- Can do Double fine-tuning:
+  - ASAP-AES -> Text flagged with incorrect words and spelling error -> pre-trained LLM -> fine-tuned LLM
+  - Fine-tuned LLM -> Suhaib Dataset with flagged incorrect words and spelling error -> Double fine-tuned LLM
+
+## Using GPT
+
+- In the GPT/
+
+## Future Steps
+
+- Best state-of-the-art model right now is apparently BERT + low-level features by Lagakis & Demetriadis (2021) according to GPT paper (https://osf.io/2uahv)

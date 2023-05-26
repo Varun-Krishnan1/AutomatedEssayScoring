@@ -1,0 +1,108 @@
+I would like you to mark the grammar of an essay. Each essay is assigned a rating of 1 to 5, with 5 being the highest and 1 the lowest. You don't have to explain why you assign that specific score. Just report a score only. Present the scores as an array ordered from your first essay score to the last. The essay is scored based on the following rubric: Use of syntactic patterns and grammatical accuracy.
+
+Essay 241:
+Summer is usually the best weather because you can go to the beach with your family or friends. And you can also eat lots of ice cream, play water guns and go to the water park to play and because it is hot. Winter is a very cold weather, so you have to wear lots of clothes when you go outside. Christmas is in winter, you can go out and see the snow, building snow man, throwing snow balls with your family or friends. And you can also drink hot soup. When you go home, you can take a hot bath. Summer is my favorite season.
+
+Essay 242:
+Dear Charmaine,
+
+last night, I had a really interesting dream. First, we were on a ship then we saw a girl jump into the sea so we tried to save her by jumping into the sea.
+     After we jumped into the sea, we found ourselves in a village the villagers were very nice. they let us eat lunch with them.B
+ 
+
+Essay 243:
+My favorite famous person is Kobe Bryant, his my favorite basketball player . He has brown skin,big eyes on his face His very tall and he has long leg and long arm of cource he has strong body. He was a very famous basketball player in NBA.
+He play in NBA for 20 years He got 5 champion ships in NBA,I believe that his the most famous player in the world.
+If he come to my home,I will be very exciting. I will ask him ''how can I play basketball like you''and''what prompt youto be abasketball player''
+I will show him a picture that he play with his favorite player Jordan. Afterthat
+
+Essay 244:
+One special night, i went to bed. I went into  a very, very deep sleep. I suddenly had the most wonderful dream ever! I could fly over the city and flew to space with a magical cat and flew on the planet known as makemake (a dwarf planet) and I had a space party i did not need to breath air and i also could fly! I flew around the planet with magical cat who could also fly, and also survive without air! the magical cat and me flew to ttrhe middle of the planet there was a giant carnival with games and roller coasters, and the best of all the worlds biggest and bounciest trampoline! The cat and me played everything in the carnival including the trampoline. But then suddenly a gigantic chicken wearing a giant belt and said " I am here to find corn, I want corn and just corn only. If there is no corn, I shall find some corn myself." "There is corn on earth and something called popcorn! I don't know how to explain it, but just go to earth and find some corn please." So finally the giant chicken just floated away while doing a T pose. It was hilarious! Then chili dogs rained from the sky, and it was so delicous, but then a demon grabbed me and the cat and dropped me in a hamburger trap the cat said " you can beat the hamburgers!" So I grabbed the cat and flew out of the trap and beat the demon, then I woke up. This was the best dream ever!
+
+Essay 245:
+If a famous person were to come to my house, the person would be mid height but still taller than me; she'll have blue eyes, thick eyebrows, fair skin and short black hair. 
+If I had chance to talk to her I would start by saying, "Hii, I'm Ferlin, I can't believe that you're actually here! It's so nice to see you, I just want to tell to you that I love your music so much and I love you and everything you do. Keep up the good work because wether you know it or not your music actually helps people around the world including me" after saying that I'd probably hug her and start showing her my whole house and basically give her a full house tour then lastly I would show her my room;
+If she plans to stay around a bit more then I'd probably ask her wether she wants to stay in my room to relax while vibing to some music or if she'd like to go and hang around the living room instead. 
+ 
+
+Essay 246:
+    One day,Cai Xukun come to my home.He is a famous actor.I didnot expect him to come.Cai Xukun's facial features gather together.On the whole,he is very handsome.Because he has strength and is an all-aroundartist,so he becamepopular.Every performance you give is great.And play basketball vell.But I am fat,I also need to step up my exercise.I took him to see basketball and learned to sing with me.Have a good time with him.
+
+Essay 247:
+My favorite season is summer not winter. Because during summer, you can eat ice cream when it's hot without getting brain freeze easily. when we get brain freeze our brain just hurts a lot and it just hurts to eat so if you want an exuse to eat ice cream.  However during winter you get to eat hot stuff and hot drinks like hot chocolate, hot pot. etc. But summer is perfect for swimming because, the water might be cold and when it is summer the sun is shining on you so intensly that you will easily get sunburned. During winter most of the time you get a good break from work and can go traveling. You could go to a hot spring for a relaxing time or you could receive christmas gifts during winter! But personaly my favorite thing about summer is that I get a one month and two week break from school and can go almost anywhere and visit my friends, I  can even go on a beach with lemonade and relax on a soothing floating mat. And that is why summer is my prefered season over winter.
+
+Essay 248:
+       I really want Lebron James comes to my home.He is famous basketball player.He plays basketball in NBA and works for  Losangles Lakers.He is very tall and strong.In addition, he has good muscles.These help him to play basketball very well.He has outstanding skills and has won the mvp many times.Besides, he is a really nice person.He is very friendly to their fans.He is very approach.So that is why he is a famous person.
+       If he comes my home someday,I will be very happy.I will talk about basketball with him and ask him how to play basketball well.I will try to learn from his spirit of never giving up.If I can, I will play basketball with him.I will also ask him about the NBA game.
+       I would be happy to show him around my house.My house My house has a lot of basketball elements.I have a lot of posters of him inmy room.I have a colletion of his shirts from different periods.I will show him all that.
+
+Essay 249:
+Hey friend
+ 
+       Today let's me talk with you about my sweet dream.
+        I have a dream that is born, when I was really young , on the TV I saw the F1 racing car and it really fast I thought that fantastic! 
+so I have a dream ,from I'm 4 years old to now I'm 10, now I've drive a real car it's a golf car and it speed very fast and some time in
+the golf club we drive on the road , that make my dream more stronger and stronger!
+This is my lovely sweet dream I hope I can make the dream for the real things
+
+Essay 250:
+One day,a man knocked at my door in a hurry.I opened the door immediately,and noticed that he is my favourite Chinese writer Lu Xun in amazement.It's impossible!He actually died on October 19,1936,almost one hundred years!I stared into his eyes--he was calm.His black short hair,black eyes,even smiling,all of them were telling me one thing:it's not a dream.He looked like stars shining in the night sky,just like his works.His books described and satirized the old Chinese society,this is why he is so famous.
+"Hello,sir.What can I do for you?"I welcomed him with a smile,"Welcome to my home.I am a big fan of your books.I very appreciate your intellect.Can we start a conversation?"He agreed.
+After he came in,I found out one of his books and showed him."Look!This is your book."I handed him that."You are one of the most famous writter in all over the world now!Congratulations!"But he just smlied,without a word,and put the book in his pocket.
+
+Essay 251:
+Hanyu yuzuru is my superhero. He is a beautiful Asian who is tall and thin but very healthy and his body was full of muscles.When he was performing it makes me think of a fair who was dancing on the ice.He is a figure skating alter who is two Olimpic Games' gold medal' s owner and he has been at the top of the game for 7 to 8 years.He can do a lot of spin and jump on ice such as 4 Lz 4S and so on.Why he is my hero is because the soul in his mind.He never give up even if he was hitted by other skater and badly hurt his coach suggest he not to join the compition,but he still doing it and get a medal.He taught me that never give up and never be proud of yourself . And now he is still challenge himself .We are always a challenger not a champion,If you really love something do it and there is no end.
+
+Essay 252:
+I am sure most of you realize that our earth is slowly dying. One of the main reason this is happening is because of pollution. Due to pollution, we can see the changes that are happening around us such as, the changes in the temperature, weather, and environment. There are two main types of pollution; air pollution and water pollution. Today, I'm disccusing mostly about the water pollution and how we can help our earth get better. Water pollution starts from the trash we produce everyday, more specifically, plastic trash. The plastics such as: cups, spoons, straws, and bags that we use everyday are dangerous for our environment/earth. If these plastics are not discarded in the right way, they can end up in the ocean which will harm the sea life. From there the cycle begins, most of the earth's body of water is going to start to get polluted and if it happened as said before our sea life will get harmed especially our coral reefs which is not going to be good for everyone. We can start preventing this by reducing the use of plastics like instead of using plastic bags, we can use reusable bags instead. Even though this is a small start it will definetely help our earth to get better and safe for us all. 
+
+Essay 253:
+I have a friend his name is Thomas. He has blond hair, blue eyes, white skin and slightly freckled face. Everyday we meet at school, i sometimes call him Thomas The Tanking Train Engine or TTTTE as I like to call him. Me and him play alot of pranks during free time or we chat about memes or useless information. The most we talk about is games but it sometimes can get boring. Whenever I am bored or lonely I go talk to Thomas or play tag with him and try to scare him. Thomas is a good friend and makes really funny jokes that cracks me up and makes everyone laugh sometimes he even does crazy dares like jump fifteen feet of some stairs or dance behind somebody's back. The best thing of him being a friend is that he usually doesn't get mad and is usually in a happy mood and that is why he is one of my Best Friends Forever!
+
+Essay 254:
+I think plastic bags should be banned in our school. First, plastic trash thrown away into the river or sea, they become micro plastics. Most of the sea lifes that eat it will be die. 
+Second, many CO2 is made when the plastis trash is burned. CO2 is one of the cause of global warming. For these reasons we have to be banned plastic bags at our school.
+
+Essay 255:
+     One sunday afternoon, Albert Einstein comes into my home. He is famous for his studies on theoratical physics. He is just like any old neighbour, kind and warm, filled with wisdom. He has dense, grey hair that could be compared to an alpine tree covered with a moderately thick layer of snow in winter. He also has a grey mustache spreading across his face. Looking down, I see him wearing a green sweater and a long pair of grey pants that just fits him. He is also wearing a pair of light-brown shoes which were polished. I offer him a seat and pour him a cup of tea, as I ask him, "Mr. Einstein, can you explain me the physics behind a white hole? Since it repels things, wouldn't it be a positive curve in the fabric of space and time?"
+After having a (preferrably lengthy) discussion about theoratical physics, I show him works of other theoratical physicians, to showcase how far the subject he has dedicated his whole life to has gone.
+     In the end, I bid farewell to him, as he leaves my home through the front door.
+
+Essay 256:
+Dear friend, 
+I had a dream yesterday about the war fields. In this dream, I had dreamed that my father and mother cheated me to the war fields, I was very scared and until one day a soldier saved me from the battle fields.
+
+After he saved me from the battlefields, he brought me to his little camp in the wild. In the little camp, I had feel the warm once again when I'm at my house. He told me that his job was to defend the enemies from entering the cities,and the enemies' armies are much stronger than ours. So as soon as I and him finished this day, he took me to practice for fighting, shooting, and bombing. In these three, I was excel at shooting, even one enemy walking very fast cannot came out of my eyesight. I did shot him that day. And I get a reward of a jar of sardin fish for shooting the first enemy.
+
+After the first shot of the enemy, I bacame more braver and stronger. Many soldiers had known my "legacy" of killing the first enemy. But the enemy still doesn't know why they lost one of their people.
+
+Once when I'm at the battlefields, I killed many of the enemies, but I got hurt badly. Before I die, I carried the bombs to their main quarters, and boomed the quarters. Many soldiers were very sad about it. So they use all their strengths to destroy the whole enemy force.
+
+Suddenly,I woke up and recognized it was just a dream. But it told me that I need to be ready for fighting the enemies outside anytime!
+
+
+Truly yours,
+Kevin Li
+
+Essay 257:
+Everyone have favorite seasons.For me, my favorite is summer.In summer,we can do many things,like go to swim, eat ice cream and have summer vacation.But it is too hot.In summer, the weather is very hot,and sometimes it's wet.Why I like it because,first,we can swim,but in winter,the water is very cold, we can go to different swimming pool to play, but in winter,we only swim in class,Then,there is summer vacation,it is longer than winter holiday.So we can go out to play many times.Winter is very cold,we can't go out to play.At last,in summer we can buy many beautiful t-shirts becasue it is thin.This is my answer why my favortie season is summer.
+
+Essay 258:
+   Have you ever wondered why most supermarkets have banned plastic bags? Plastic bags are one of the most harmfull things that harm the environment, therefore, more and more supermarkets around the world are starting to ban the usage of plastic bags. We as a school can take part in being a part of this movement, and ban the usage of plastic bags in our school. The reason why plastic bags are so harmful is because they are not easy to recycle, harmful to soil and it takes a very long time for them to dissolve on land. 
+
+   The plastic bags used and thrown in bins don't get recycled, and the ones that are recycled cost a lot of money. Because of the material that are used in plastic bags, it's not an easy task to recycle them. Therefore, they get thrown away, where they stay in nature for years. Because of that, instead of recycling, new plastic bags get made because of the fact that it's cheaper then regular bags, and this causes a problem at a larger scale. The unrecycled plastic bags are also mostly thrown away on the streets, carried by the wind. Those kind of plastic bags take hunderds of years to dissolve and are extremely harmful to soil. 
+   
+   Plastic bags are one of the most toxic things to soil and natural life. You may probably have seen pictures of animals in water with plastic bags stuck to them. Those animals will most likely have to live like that for the rest of their lives. Along with that, plastic bags that are left on soil are very harmful. They also don't dissolve there for a long period of time, so it will keep damaging the soil for a long time. 
+
+   The last reason why plastic bags should not be allowed in our school is becuase of the extreme time it takes for these bags to dissolve. A plastic bag left on the nature or anywhere can survive for hundreds of years. Plus, considering that they are very dangerous to nature and animals, this means that they harm the environment for hundreds of years. 
+
+   In summary, every plastic bag that is thrown away or not recycled is a toxic substance for the environment to deal with for the next hundreds of years. What we can at least do is ban the usage of plastic bags in our school, so that we can at least have a small impact on this movement. The world is in our hands, and we should do whatever we can to make it a better place.
+
+Essay 259:
+                                                                                                     The Strangest Animal I've Ever Seen
+  Bates are the strangest animal in the world.Their fur are black and grey,and have two big wings that help them fiy.Besides, bates are the only mammel that can fly.Futhermore,they have two big ears like triangle, and they help them use echo to catch food and find the way home .Their eyes are very big so they make them a little bit cute, but their eres are useless in the dark night. They also have two hands which have three fingers on each hand but no use at all.Their feet are also very big, and they help them sleep safely.Their look are so strange that I even don't know why god would make them.
+  Not only their look is very strange, but also the place they live is very strange.Bates live in the cave .The cave is very cold,wet and dark.They often sleep in morning and catch food at night. They always sleep upside down and use their toes to hang themselves on the top of the cave like a ice cone. However, sometimes bates' toes cannot hold their weight and then they will fall down from the top of the cove.So that's why bates are all very small and light ,if they are too heavy they will fall down from the top of the cave ,drop on the ground and maybe die. So that's another reason why I think bates are very strange.
+  Bates' look and the place they live are all very strange. That is why I think bates are the strangest animal I've ever seen.
+
+Essay 260:
+Plastic bags have been a negative impact on human life and wildlife over the years. It has caused pollution to arise and has endangered a lot of species both on and off the land. According to recent studies, scientists have shown that banning plastic bags in some countries' supermarkets has decreased the amount of plastic waste and pollution in that areas. This evidence shows that banning plastic bags could improve our environmental health in many different ways. Like other countries, Our school should try to do the same by banning plastic bags and making a difference in our society for a cleaner environment. We could start by limiting plastic bags and replacing them with other recyclable bags when going out. We could always keep one in your purse or backpack would be beneficial because you will always have one ready, even if you weren't intended to have one that day. We could also make posters around the neighborhood, spreading our word with posters so that we could make this impact bigger. Even though our school is a small society, I believe that we will be able to spread our words and our actions around the country so that we will have a chance of living in a cleaner and healthier environment.

@@ -104,7 +104,7 @@ majority_class = stats.mode(Y)[0][0]
 # Create a majority classifier prediction array
 majority_predictions = np.full(Y.shape, majority_class)
 
-# -- Calculate the Metrics 
+# --- Calculate the Metrics ---
 import metrics # author's file 
 
 from sklearn.metrics import classification_report
