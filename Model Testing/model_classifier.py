@@ -10,8 +10,8 @@ from tensorflow.keras.models import load_model
 # --- Global variables ---
 
 ## Author Rubric 2 - Organization 
-AUTHOR_RUBRIC_NAME = 'Rubric2'
-MODEL_PATH = "PreTrainedModels/Rubric2train_model5(2019-11-21@21.51.01).hdf5"
+# AUTHOR_RUBRIC_NAME = 'Rubric2'
+# MODEL_PATH = "PreTrainedModels/Rubric2train_model5(2019-11-21@21.51.01).hdf5"
 
 ## Author Rubric 4 - Conventions 
 # AUTHOR_RUBRIC_NAME = 'Rubric4'

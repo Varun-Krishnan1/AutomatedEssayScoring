@@ -16,14 +16,14 @@ from map_predictions import map_predictions_rubric
 # R5 - SPELLING AND PUNCTUATION
 
 # Organization (Rubric 2 - Organization(author) vs Rubric 2 - ORGANIZATION(ours))
-OUR_RUBRIC_NAME = 'Marking Key 2 Score'
-OUR_RUBRIC_MAX_SCORE = 4
-AUTHOR_RUBRIC_NAME = 'Rubric2'
+# OUR_RUBRIC_NAME = 'Marking Key 2 Score'
+# OUR_RUBRIC_MAX_SCORE = 4
+# AUTHOR_RUBRIC_NAME = 'Rubric2'
 
 ## Grammar (Conventions(author) vs GRAMMAR(ours))
-# OUR_RUBRIC_NAME = 'Marking Key 3 Score'
-# OUR_RUBRIC_MAX_SCORE = 5
-# AUTHOR_RUBRIC_NAME = 'Rubric4'
+OUR_RUBRIC_NAME = 'Marking Key 3 Score'
+OUR_RUBRIC_MAX_SCORE = 5
+AUTHOR_RUBRIC_NAME = 'Rubric4'
 
 ## Style (Style(author) vs VOCABULARY(ours))
 # OUR_RUBRIC_NAME = 'Marking Key 4 Score'

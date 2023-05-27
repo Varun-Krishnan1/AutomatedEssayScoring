@@ -8,11 +8,11 @@ import os
 
 rubric_name = "grammar"
 max_score = 5
-rubric_description = "Use of syntactic patterns and grammatical accuracy."
+rubric_description = "Use of syntactic patterns and grammatical accuracy"
 num_essays = 294
 essays_per_file = 20
 
-prompt = f"I would like you to mark the {rubric_name.lower()} of an essay. Each essay is assigned a rating of 1 to {max_score}, with {max_score} being the highest and 1 the lowest. You don't have to explain why you assign that specific score. Just report a score only. Present the scores as an array ordered from your first essay score to the last. The essay is scored based on the following rubric: {rubric_description}"
+prompt = f"I would like you to mark the {rubric_name.lower()} of an essay. Each essay is assigned a rating of 1 to {max_score}, with {max_score} being the highest and 1 the lowest. You don't have to explain why you assign that specific score. Just report a score only. Present the scores as an array ordered from your first essay score to the last. The essay is scored based on the following rubric: {rubric_description}."
 
 essay_files_dir = "../SampleEssays/"
 output_dir = "../GPT4_Input/"
@@ -24,6 +24,7 @@ for index in range(0, num_essays, essays_per_file):
 
     with open(file_path, "w") as file:
         file.write(prompt)
+        file.write(f" There are {essays_in_file} essays to score.")
 
         for essay_index in range(index, index+essays_in_file):
             essay_file_path = os.path.join(essay_files_dir, f"{essay_index}.txt")
