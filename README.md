@@ -150,7 +150,10 @@ TO DO:
 
 - Their majority classifier (see image below) does significantly worse than our majority classifier meaning we have an imbalanced dataset with too small of samples for analysis to be useful. Also could be that predicting scores between 1-5 is just not granular enough to be useful because you can just use mode for pretty good results...
   <img width="1308" alt="image" src="https://github.com/Varun-Krishnan1/AutomatedEssayScoring/assets/19865419/216266df-dd29-44a2-91b9-5f5cdae61e04">
+
   - Our model does **not** outperform a majority classifier
+
+- However, the power of our model is explainability and feedback which the majority classifier doesn't allow for. Furthermore, you have to look at the F1 score which takes into account precision and recall which is a better evaluator than just acurracy.
 
 **For RUBRIC 2 (Organization):**
 
@@ -202,9 +205,10 @@ Process:
 
 ### 1. Preparing Input
 
-- Inspired from this paper: https://osf.io/2uahv)
+- Inspired from this paper: https://osf.io/2uahv
 - Code located in the GPT/ folder
 - PrepareInput.py: Creates a prompt followed by the essay to score based on prompt from above paper. Essays to score are saved in batches due to limitations of GPT input size. Batches are saved in GPT4_Input/
+- NOTE: The prompt assumes that the minimum score in Suhaib's marking is 1 and maximum score is the max from that rubric - in reality it looks like minimum score can be less than 1 for some rubrics (eg, marking key 3 grammer with min of 0) -> this will have to be fixed
 
 ### 2. Predicting Labels
 
@@ -212,9 +216,19 @@ Process:
 
 ### 3. Evlauting Labels
 
-- The evluation is done in evaluateGPTLabeling.py: similar to how the model created from Kumar et al's paper is evaluated in Model Testing/evaluate_preds.py the same evaluation metrics are used and the output saved in GPT4_Evaluation/
+- The evaluation was done using Marking Key 3 Grammer with RUBRIC_MAX_SCORE = 5
+- The evluation is done in evaluateGPTLabeling.py: similar to how the model created from Kumar et al's paper is evaluated in Model Testing/evaluate_preds.py the same evaluation metrics are used. The labels from GPT are from 1 - RUBRIC_MAX_SCORE. However, the scores of some rubric are 0 so we need to convert all 0 values to 1 and all values above the RUBRIC_MAX_SCORE to RUBRIC_MAX_SCORE
 
-### 4. Conclusions from GPT Evaluatino
+Results:
+
+- You can see it does slightly worse with F1 score compared to our model but the acurracy and percentage of adjacent matches are similar.
+
+TO DO:
+
+- Try with different rubrics
+- Adjust minimum score in prompt for Marking Key 3
+
+### 4. Conclusions from GPT Evaluation
 
 ## Future Steps
 

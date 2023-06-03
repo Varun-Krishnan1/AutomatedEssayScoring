@@ -7,10 +7,19 @@ import numpy as np
 
 # --- Get Actual Labels --- 
 
+OUR_RUBRIC_MAX_SCORE = 5
 OUR_RUBRIC_NAME = 'Marking Key 3 Score'
 Y_all = pd.read_csv("../../Model Testing/SampleEssayLabels/SampleEssaylabels.csv")
 # To get labels we need to read in the corresponding rubric column
 Y = Y_all[OUR_RUBRIC_NAME].values
+
+# --- Creating ceiling and floor for our labels --- 
+# Suhaib pointed out there is an error where some labels can be higher than the max 
+# possible marking score let's fix this. 
+# # Let's also map the 0 score to 1 since that was what our GPT prompt used 
+
+# Clip array elements to a maximum of the max rubric score
+Y = np.clip(Y, 1, OUR_RUBRIC_MAX_SCORE) # arr, min, max 
 
 # --- Get GPT Labels --- 
 P1 = [5, 1, 1, 3, 2, 1, 1, 4, 3, 3, 4, 4, 2, 3, 2, 4, 5, 4, 5, 4]
