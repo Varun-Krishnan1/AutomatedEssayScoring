@@ -163,8 +163,8 @@ TO DO:
   2 : 3
   3 : 4
   4 : 5,6
-- This mapping resulted in the following result.
-  <img width="426" alt="image" src="https://github.com/Varun-Krishnan1/AutomatedEssayScoring/assets/19865419/003d936c-0487-4457-b045-61683ea38008">
+- This mapping resulted in the following result.     
+  <img width="426" alt="image" src="https://github.com/Varun-Krishnan1/AutomatedEssayScoring/assets/19865419/003d936c-0487-4457-b045-61683ea38008">         
   While not the greatest result manaully evaluating the output labels to the essays it doesn't seem too bad.
 
 **For RUBRIC 3 (Content):**
@@ -219,14 +219,14 @@ Process:
 - The evaluation was done using Marking Key 3 Grammer with RUBRIC_MAX_SCORE = 5
 - The evluation is done in evaluateGPTLabeling.py: similar to how the model created from Kumar et al's paper is evaluated in Model Testing/evaluate_preds.py the same evaluation metrics are used. The labels from GPT are from 1 - RUBRIC_MAX_SCORE. However, the scores of some rubric are 0 so we need to convert all 0 values to 1 and all values above the RUBRIC_MAX_SCORE to RUBRIC_MAX_SCORE
 
-Results:
-
+Results:    
+<img width="488" alt="image" src="https://github.com/Varun-Krishnan1/AutomatedEssayScoring/assets/19865419/f650bd17-0de1-4aee-bf95-286ccdf95c3e">
 - You can see it does slightly worse with F1 score compared to our model but the acurracy and percentage of adjacent matches are similar.
 
 TO DO:
 
 - Try with different rubrics
-- Adjust minimum score in prompt for Marking Key 3
+- Adjust minimum score in prompt for Marking Key 3. The prompt assumes that the minimum score in Suhaib's marking is 1 and maximum score is the max from that rubric - in reality it looks like minimum score can be less than 1 for some rubrics (eg, marking key 3 grammer with min of 0)
 
 ### 4. Conclusions from GPT Evaluation
 
