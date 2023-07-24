@@ -9,6 +9,10 @@ import pandas as pd
 from tensorflow.keras.models import load_model
 # --- Global variables ---
 
+# Author Rubric 1 - Ideas
+AUTHOR_RUBRIC_NAME = 'Rubric1'
+MODEL_PATH = "PreTrainedModels/Rubric1train_model5(2019-11-21@21.29.27).hdf5"
+
 ## Author Rubric 2 - Organization 
 # AUTHOR_RUBRIC_NAME = 'Rubric2'
 # MODEL_PATH = "PreTrainedModels/Rubric2train_model5(2019-11-21@21.51.01).hdf5"
@@ -20,6 +24,7 @@ from tensorflow.keras.models import load_model
 ## Author Rubric 3 - Style
 # AUTHOR_RUBRIC_NAME = 'Rubric3'
 # MODEL_PATH = "PreTrainedModels/Rubric3train_model5(2019-11-21@22.18.57).hdf5"
+
 
 # --- Get Features --- 
 
@@ -49,7 +54,9 @@ print(predicted_scores[0])
 
 # The raw outputs from the model are probabilities for each score,
 # so we need to convert these to actual scores. This can be done by
-# choosing the score with the highest probability.
+# choosing the score with the highest probability. Will output with 
+# a prediction from [0,6] since that was what the original papers 
+# rubric was graded on 
 predicted_scores = np.argmax(predicted_scores, axis=1)
 print("Predicted Scores:")
 print(predicted_scores)
@@ -57,7 +64,7 @@ print(f"Predicted Scores: {predicted_scores.shape}")
 
 # --- Save Scores for Analysis --- 
 
-# Save in format 0.txt : pred_score, 7.txt: pred_score, etc... to ensure we now order of scores
+# Save in format 0.txt : pred_score, 7.txt: pred_score, etc... to ensure we know order of scores
 acceptable_files = pd.read_csv("SampleEssaysFeaturesTruncCheatingNormalizedFilteredOrdered/Cheating-SampleEssays-gamet-filtered-ordered.csv")
 file_names = acceptable_files['filename'].values
 essay_to_predicted_scores = {file_names[i]:predicted_scores[i] for i in range(len(file_names))}

@@ -16,19 +16,24 @@ from map_predictions import map_predictions_rubric
 # R5 - SPELLING AND PUNCTUATION
 
 # Organization (Rubric 2 - Organization(author) vs Rubric 2 - ORGANIZATION(ours))
-# OUR_RUBRIC_NAME = 'Marking Key 2 Score'
-# OUR_RUBRIC_MAX_SCORE = 4
-# AUTHOR_RUBRIC_NAME = 'Rubric2'
+AUTHOR_RUBRIC_NAME = 'Rubric2'
+OUR_RUBRIC_NAME = 'Marking Key 2 Score'
+OUR_RUBRIC_MAX_SCORE = 4
 
-## Grammar (Conventions(author) vs GRAMMAR(ours))
-OUR_RUBRIC_NAME = 'Marking Key 3 Score'
-OUR_RUBRIC_MAX_SCORE = 5
-AUTHOR_RUBRIC_NAME = 'Rubric4'
+## Grammar (Rubric 4 - Conventions(author) vs Rubric 3 - GRAMMAR(ours))
+# AUTHOR_RUBRIC_NAME = 'Rubric4'
+# OUR_RUBRIC_NAME = 'Marking Key 3 Score'
+# OUR_RUBRIC_MAX_SCORE = 5
 
-## Style (Style(author) vs VOCABULARY(ours))
+## Spelling and Punctuation (Rubric 4 - Conventions(author) vs Rubric 5 - SPELLING AND PUNCTUATION(ours))
+# AUTHOR_RUBRIC_NAME = 'Rubric4'
+# OUR_RUBRIC_NAME = 'Marking Key 5 Score'
+# OUR_RUBRIC_MAX_SCORE = 2
+
+## Style (Rubric 3 - Style(author) vs Rubric 4 - VOCABULARY(ours))
+# AUTHOR_RUBRIC_NAME = 'Rubric3'
 # OUR_RUBRIC_NAME = 'Marking Key 4 Score'
 # OUR_RUBRIC_MAX_SCORE = 5
-# AUTHOR_RUBRIC_NAME = 'Rubric3'
 
 # --- Get Actual Lables --- 
 Y_all = pd.read_csv("SampleEssayLabels/SampleEssaylabels.csv")
@@ -46,13 +51,7 @@ print("Y: ")
 print(Y)
 print(f"New Y Shape: {Y.shape}")
 
-# -- Read in Predicted Labels -- 
-
-predicted_label_file = f'PredictedLabels/{AUTHOR_RUBRIC_NAME}EssayToUnMappedPredictedScores.csv'
-predicted_scores = pd.read_csv(predicted_label_file)
-predicted_scores = predicted_scores['pred_score'].values
-
-# --- Creating ceiling for our labels --- 
+# --- Creating ceiling for our true labels --- 
 # Suhaib pointed out there is an error where some labels can be higher than the max 
 # possible marking score let's fix this 
 
@@ -61,9 +60,14 @@ Y = np.clip(Y, None, OUR_RUBRIC_MAX_SCORE) # arr, min, max
 print("Clipped Y")
 print(Y) 
 
-print(f"Predicted Scores (Clipped): {Y}")
-print(f"Predicted Scores (Clipped) Shape: {Y.shape}")
+print(f"True Scores (Clipped): {Y}")
+print(f"True Scores (Clipped) Shape: {Y.shape}")
 
+# -- Read in Predicted Labels -- 
+
+predicted_label_file = f'PredictedLabels/{AUTHOR_RUBRIC_NAME}EssayToUnMappedPredictedScores.csv'
+predicted_scores = pd.read_csv(predicted_label_file)
+predicted_scores = predicted_scores['pred_score'].values
 # --- Get Statistics for Our Labels ---
 # See distribution of our rubric
 
@@ -92,6 +96,20 @@ print(f"Correlation : {correlation}")
 mapped_predictions = map_predictions_rubric(predicted_scores, our_max_score=OUR_RUBRIC_MAX_SCORE)
 print("Mapped Predictions: ")
 print(mapped_predictions)
+
+# Save mapped preditions 
+# Save in format 0.txt : pred_score, 7.txt: pred_score, etc... to ensure we know order of scores
+import csv
+acceptable_files = pd.read_csv("SampleEssaysFeaturesTruncCheatingNormalizedFilteredOrdered/Cheating-SampleEssays-gamet-filtered-ordered.csv")
+file_names = acceptable_files['filename'].values
+essay_to_predicted_scores = {file_names[i]:mapped_predictions[i] for i in range(len(file_names))}
+
+header = ['essay', 'mapped_pred_score']
+save_file = f'PredictedLabels/{AUTHOR_RUBRIC_NAME}EssayTo{OUR_RUBRIC_NAME.replace(" ","")}MappedPredictedScores.csv'
+with open(save_file, 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(header)
+    writer.writerows(essay_to_predicted_scores.items())
 
 # --- Evaluating our Mapped Predicted Labels --- 
 # Use Metrics from Author's File

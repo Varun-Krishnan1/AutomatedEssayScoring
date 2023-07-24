@@ -51,7 +51,19 @@ This script has functions for mapping predicted lables to the range of our rubri
 
 def map_predictions_rubric(predictions, our_max_score):
     mapping = {} 
-    if our_max_score == 4:
+    # [0-2] for our SPELLING AND PUNCTUATION rubric 
+    if our_max_score == 2: 
+        mapping = {
+            0: 0,
+            1: 0,
+            2: 1, 
+            3: 1,
+            4: 1,
+            5: 2,
+            6: 2
+        }
+    # [1-4] for our rubrics
+    elif our_max_score == 4:
         mapping = {
             0: 1,
             1: 1,
@@ -61,6 +73,7 @@ def map_predictions_rubric(predictions, our_max_score):
             5: 4,
             6: 4
         }
+    # [1-5] for our rubrics
     elif our_max_score == 5:
         mapping = {
             0: 1,
