@@ -31,8 +31,8 @@ def check_num_folder_encoding(folder_path):
     print(f"Total utf-8 encoded files: {counter}")
 
 
-# folder_path = "Tool Validation/Input Essays/"
-folder_path = "TestingWithSampleEssays/SampleEssays/"
+# folder_path = "TestingWithSampleEssays/SampleEssays/"
+folder_path = "1200EssaysRootFolder/Output/EssaysTXT/"
 
 check_num_folder_encoding(folder_path)
 

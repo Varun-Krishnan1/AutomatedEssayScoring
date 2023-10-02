@@ -27,7 +27,5 @@ def check_folder_files(folder_path, remove_folder_path):
 
 
 folder_path = "SampleEssays/"  # Specify the path to the folder with .txt files
-remove_folder_path = (
-    "SampleEssaysTAALED/"  # Specify the path to the folder to remove files from
-)
+remove_folder_path = "SampleEssaysTAALED/"  # Specify the path to the folder to remove files from
 check_folder_files(folder_path, remove_folder_path)
