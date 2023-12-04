@@ -2,6 +2,8 @@
 
 Using NLP Methods for Automated Essay Scoring.
 
+NOTE: Newer version with Large Language Models is in separate repository.
+
 ## Using low-level Writing Features
 
 **Low-Level Writing Features Advantages:**
