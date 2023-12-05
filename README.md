@@ -1,8 +1,6 @@
 # AutomatedEssayScoring
 
-Using NLP Methods for Automated Essay Scoring.
-
-NOTE: Newer version with Large Language Models is in separate repository.
+Using NLP Methods for Automated Essay Scoring. This is previous work that worked on grading essays using low-level writing features. Current work is stored in separate repository that instead utilize large language models. 
 
 ## Using low-level Writing Features
 
