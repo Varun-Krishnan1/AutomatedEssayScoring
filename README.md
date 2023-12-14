@@ -2,7 +2,7 @@
 
 Using NLP Methods for Automated Essay Scoring. This is previous work that worked on grading essays using low-level writing features. 
 
-**NOTE: Onging work is stored in separate repository that now utilizes large language models.**
+**NOTE: Onging work is stored in separate repository that now utilizes large language models including PaLM 2 with Vertex AI and distributed cloud computing, Llama 2, and BERT.**
 
 ## Using low-level Writing Features
 
